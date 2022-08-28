@@ -85,6 +85,9 @@ You need to create 2 search indexes to make it work. First one for api methods a
 - Navigate to search tab of the mongodb cluster
 - Click on "CREATE INDEX" button
 - Select "JSON Editor" and click on "Next" button
+- Select database collection
+    - `API_METHODS` - for api methods index
+    - `RAW_FUNCTIONS` - for raw functions index
 - Give "Index name"
     - `api_methods` - for api methods index
     - `raw_functions` - for raw functions index
