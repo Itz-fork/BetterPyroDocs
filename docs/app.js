@@ -9,7 +9,7 @@ async function parse_method_results(results_div, results) {
         <h3><b>Category:</b> ${item.category}</h3>
         <h3><b>Description:</b><p>${item.description}</p>
             <div class="card-actions justify-end">
-                <button class="btn btn-sm btn-primary"><a href="${item.docs}">Docs ➜</a></button>
+                <button class="btn btn-sm btn-primary"><a href="${item.docs}" target="_blank">Docs ➜</a></button>
             </div>
     </div>
 </div>`
@@ -31,7 +31,7 @@ async function parse_raw_func_results(results_div, results) {
         <h3><b>ID:</b> ${item.id}</h3>
         <h3><b>Description:</b><p>${item.description}</p>
             <div class="card-actions justify-end">
-                <button class="btn btn-sm btn-primary"><a href="${item.docs}">Docs ➜</a></button>
+                <button class="btn btn-sm btn-primary"><a href="${item.docs}" target="_blank">Docs ➜</a></button>
             </div>
     </div>
 </div>`

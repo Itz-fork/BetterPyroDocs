@@ -4,3 +4,9 @@
 input[type=checkbox] {
     transform: scale(0.5);
 }
+
+/* Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+}
