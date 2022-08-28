@@ -52,11 +52,11 @@
 
 
 ## Web
-- **Directory:** [web](web)
+- **Directory:** [docs](docs)
 
 - **About:** Website to search for pyrogram's api methods and raw functions using inline mode
 
-- **Run:** Just open the [index.html](web/index.html)
+- **Run:** Just open the [index.html](docs/index.html)
 
 - **Demo:** 
 
