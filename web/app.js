@@ -1,5 +1,8 @@
 // deno-lint-ignore require-await
 async function parse_method_results(results_div, results) {
+  if (!results) {
+    alert("Nothing found for your query!")
+  }
   results_div.innerHTML = ""
   for (const [key, item] of Object.entries(results)) {
     let rs = `
@@ -19,6 +22,9 @@ async function parse_method_results(results_div, results) {
 
 // deno-lint-ignore require-await
 async function parse_raw_func_results(results_div, results) {
+  if (!results) {
+    alert("Nothing found for your query!")
+  }
   results_div.innerHTML = ""
   for (const [key, item] of Object.entries(results)) {
     let rs = `
@@ -46,7 +52,7 @@ async function Get_Results() {
   const is_raw_funcs = document.getElementById("is_raw_funcs").checked
   const results_div = document.getElementById("results")
 
-  // Fetch data
+  // Fetch data and update the UI
   if (is_methods) {
     const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
     await parse_method_results(results_div, results)
