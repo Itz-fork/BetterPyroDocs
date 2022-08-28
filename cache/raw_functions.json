@@ -1,0 +1,4592 @@
+[
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "AcceptAuthorization",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/accept-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.account import AcceptAuthorization",
+    "description": "Sends a Telegram Passport authorization form, effectively sharing data with the service.",
+    "layer": "144",
+    "id": "F3ED4C73"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "CancelPasswordEmail",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/cancel-password-email.html",
+    "import_syntax": "from pyrogram.raw.functions.account import CancelPasswordEmail",
+    "description": "Cancel the code that was sent to verify an email to use as 2FA recovery method.",
+    "layer": "144",
+    "id": "C1CBD5B6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ChangeAuthorizationSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/change-authorization-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ChangeAuthorizationSettings",
+    "description": "Change authorization settings.",
+    "layer": "144",
+    "id": "40F48462"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ChangePhone",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/change-phone.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ChangePhone",
+    "description": "Change the phone number of the current account.",
+    "layer": "144",
+    "id": "70C32EDB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "CheckUsername",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/check-username.html",
+    "import_syntax": "from pyrogram.raw.functions.account import CheckUsername",
+    "description": "Validates a username and checks availability.",
+    "layer": "144",
+    "id": "2714D86C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ConfirmPasswordEmail",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/confirm-password-email.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ConfirmPasswordEmail",
+    "description": "Verify an email to use as 2FA recovery method.",
+    "layer": "144",
+    "id": "8FDF1920"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ConfirmPhone",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/confirm-phone.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ConfirmPhone",
+    "description": "Confirm a phone number to cancel account deletion.",
+    "layer": "144",
+    "id": "5F2178C3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "CreateTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/create-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import CreateTheme",
+    "description": "Create a theme.",
+    "layer": "144",
+    "id": "652E4400"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "DeclinePasswordReset",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/decline-password-reset.html",
+    "import_syntax": "from pyrogram.raw.functions.account import DeclinePasswordReset",
+    "description": "Abort a pending 2FA password reset.",
+    "layer": "144",
+    "id": "4C9409F6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "DeleteAccount",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/delete-account.html",
+    "import_syntax": "from pyrogram.raw.functions.account import DeleteAccount",
+    "description": "Delete the user’s account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the 2FA password and no recovery method is configured.",
+    "layer": "144",
+    "id": "A2C0CF74"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "DeleteSecureValue",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/delete-secure-value.html",
+    "import_syntax": "from pyrogram.raw.functions.account import DeleteSecureValue",
+    "description": "Delete stored Telegram Passport documents.",
+    "layer": "144",
+    "id": "B880BC4B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "FinishTakeoutSession",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/finish-takeout-session.html",
+    "import_syntax": "from pyrogram.raw.functions.account import FinishTakeoutSession",
+    "description": "Finish account takeout session.",
+    "layer": "144",
+    "id": "1D2652EE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetAccountTTL",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-account-ttl.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetAccountTTL",
+    "description": "Get days to live of account.",
+    "layer": "144",
+    "id": "8FC711D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetAllSecureValues",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-all-secure-values.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetAllSecureValues",
+    "description": "Get all saved Telegram Passport documents.",
+    "layer": "144",
+    "id": "B288BC7D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetAuthorizationForm",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-authorization-form.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetAuthorizationForm",
+    "description": "Returns a Telegram Passport authorization form for sharing data with a service.",
+    "layer": "144",
+    "id": "A929597A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetAuthorizations",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-authorizations.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetAuthorizations",
+    "description": "Get logged-in sessions.",
+    "layer": "144",
+    "id": "E320C158"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetAutoDownloadSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-auto-download-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetAutoDownloadSettings",
+    "description": "Get media autodownload settings.",
+    "layer": "144",
+    "id": "56DA0B3F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetChatThemes",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-chat-themes.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetChatThemes",
+    "description": "Get all available chat themes.",
+    "layer": "144",
+    "id": "D638DE89"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetContactSignUpNotification",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-contact-sign-up-notification.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetContactSignUpNotification",
+    "description": "Whether the user will receive notifications when contacts sign up.",
+    "layer": "144",
+    "id": "9F07C728"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetContentSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-content-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetContentSettings",
+    "description": "Get sensitive content settings.",
+    "layer": "144",
+    "id": "8B9B4DAE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetGlobalPrivacySettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-global-privacy-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetGlobalPrivacySettings",
+    "description": "Get global privacy settings.",
+    "layer": "144",
+    "id": "EB2B4CF6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetMultiWallPapers",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-multi-wall-papers.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetMultiWallPapers",
+    "description": "Get info about multiple wallpapers.",
+    "layer": "144",
+    "id": "65AD71DC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetNotifyExceptions",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-notify-exceptions.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetNotifyExceptions",
+    "description": "Returns list of chats with non-default notification settings.",
+    "layer": "144",
+    "id": "53577479"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetNotifySettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-notify-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetNotifySettings",
+    "description": "Gets current notification settings for a given user/group, from all users/all groups.",
+    "layer": "144",
+    "id": "12B3AD31"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetPassword",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-password.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetPassword",
+    "description": "Obtain configuration for two-factor authorization with password.",
+    "layer": "144",
+    "id": "548A30F5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetPasswordSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-password-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetPasswordSettings",
+    "description": "Get private info associated to the password info (recovery email, telegram passport info & so on).",
+    "layer": "144",
+    "id": "9CD4EAF9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetPrivacy",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-privacy.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetPrivacy",
+    "description": "Get privacy settings of current account.",
+    "layer": "144",
+    "id": "DADBC950"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetSavedRingtones",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-saved-ringtones.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetSavedRingtones",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "E1902288"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetSecureValue",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-secure-value.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetSecureValue",
+    "description": "Get saved Telegram Passport document.",
+    "layer": "144",
+    "id": "73665BC2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetTheme",
+    "description": "Get theme information.",
+    "layer": "144",
+    "id": "8D9D742B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetThemes",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-themes.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetThemes",
+    "description": "Get installed themes.",
+    "layer": "144",
+    "id": "7206E458"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetTmpPassword",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-tmp-password.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetTmpPassword",
+    "description": "Get temporary payment password.",
+    "layer": "144",
+    "id": "449E0B51"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetWallPaper",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-wall-paper.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetWallPaper",
+    "description": "Get info about a certain wallpaper.",
+    "layer": "144",
+    "id": "FC8DDBEA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetWallPapers",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-wall-papers.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetWallPapers",
+    "description": "Returns a list of available wallpapers.",
+    "layer": "144",
+    "id": "7967D36"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "GetWebAuthorizations",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/get-web-authorizations.html",
+    "import_syntax": "from pyrogram.raw.functions.account import GetWebAuthorizations",
+    "description": "Get web login widget authorizations.",
+    "layer": "144",
+    "id": "182E6D6F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "InitTakeoutSession",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/init-takeout-session.html",
+    "import_syntax": "from pyrogram.raw.functions.account import InitTakeoutSession",
+    "description": "Initialize account takeout session.",
+    "layer": "144",
+    "id": "8EF3EAB0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "InstallTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/install-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import InstallTheme",
+    "description": "Install a theme.",
+    "layer": "144",
+    "id": "C727BB3B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "InstallWallPaper",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/install-wall-paper.html",
+    "import_syntax": "from pyrogram.raw.functions.account import InstallWallPaper",
+    "description": "Install wallpaper.",
+    "layer": "144",
+    "id": "FEED5769"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "RegisterDevice",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/register-device.html",
+    "import_syntax": "from pyrogram.raw.functions.account import RegisterDevice",
+    "description": "Register device to receive PUSH notifications.",
+    "layer": "144",
+    "id": "EC86017A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ReportPeer",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/report-peer.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ReportPeer",
+    "description": "Report a peer for violation of telegram’s Terms of Service.",
+    "layer": "144",
+    "id": "C5BA3D86"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ReportProfilePhoto",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/report-profile-photo.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ReportProfilePhoto",
+    "description": "Report a profile photo of a dialog.",
+    "layer": "144",
+    "id": "FA8CC6F5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResendPasswordEmail",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/resend-password-email.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResendPasswordEmail",
+    "description": "Resend the code to verify an email to use as 2FA recovery method.",
+    "layer": "144",
+    "id": "7A7F2A15"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetAuthorization",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetAuthorization",
+    "description": "Log out an active authorized session by its hash.",
+    "layer": "144",
+    "id": "DF77F3BC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetNotifySettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-notify-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetNotifySettings",
+    "description": "Resets all notification settings from users and groups.",
+    "layer": "144",
+    "id": "DB7E1747"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetPassword",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-password.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetPassword",
+    "description": "Initiate a 2FA password reset: can only be used if the user is already logged-in.",
+    "layer": "144",
+    "id": "9308CE1B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetWallPapers",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-wall-papers.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetWallPapers",
+    "description": "Delete installed wallpapers.",
+    "layer": "144",
+    "id": "BB3B9804"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetWebAuthorization",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-web-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetWebAuthorization",
+    "description": "Log out an active web telegram login session.",
+    "layer": "144",
+    "id": "2D01B9EF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "ResetWebAuthorizations",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-web-authorizations.html",
+    "import_syntax": "from pyrogram.raw.functions.account import ResetWebAuthorizations",
+    "description": "Reset all active web telegram login sessions.",
+    "layer": "144",
+    "id": "682D2594"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SaveAutoDownloadSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/save-auto-download-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SaveAutoDownloadSettings",
+    "description": "Change media autodownload settings.",
+    "layer": "144",
+    "id": "76F36233"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SaveRingtone",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/save-ringtone.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SaveRingtone",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "3DEA5B03"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SaveSecureValue",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/save-secure-value.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SaveSecureValue",
+    "description": "Securely save Telegram Passport document.",
+    "layer": "144",
+    "id": "899FE31D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SaveTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/save-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SaveTheme",
+    "description": "Save a theme.",
+    "layer": "144",
+    "id": "F257106C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SaveWallPaper",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/save-wall-paper.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SaveWallPaper",
+    "description": "Install/uninstall wallpaper.",
+    "layer": "144",
+    "id": "6C5A5B37"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SendChangePhoneCode",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/send-change-phone-code.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SendChangePhoneCode",
+    "description": "Verify a new phone number to associate to the current account.",
+    "layer": "144",
+    "id": "82574AE5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SendConfirmPhoneCode",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/send-confirm-phone-code.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SendConfirmPhoneCode",
+    "description": "Send confirmation code to cancel account deletion.",
+    "layer": "144",
+    "id": "1B3FAA88"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SendVerifyEmailCode",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/send-verify-email-code.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SendVerifyEmailCode",
+    "description": "Send the verification email code for telegram passport.",
+    "layer": "144",
+    "id": "7011509F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SendVerifyPhoneCode",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/send-verify-phone-code.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SendVerifyPhoneCode",
+    "description": "Send the verification phone code for telegram passport.",
+    "layer": "144",
+    "id": "A5A356F9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetAccountTTL",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-account-ttl.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetAccountTTL",
+    "description": "Set account self-destruction period.",
+    "layer": "144",
+    "id": "2442485E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetAuthorizationTTL",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-authorization-ttl.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetAuthorizationTTL",
+    "description": "Set time-to-live of current session.",
+    "layer": "144",
+    "id": "BF899AA0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetContactSignUpNotification",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-contact-sign-up-notification.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetContactSignUpNotification",
+    "description": "Toggle contact sign up notifications.",
+    "layer": "144",
+    "id": "CFF43F61"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetContentSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-content-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetContentSettings",
+    "description": "Set sensitive content settings (for viewing or hiding NSFW content).",
+    "layer": "144",
+    "id": "B574B16B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetGlobalPrivacySettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-global-privacy-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetGlobalPrivacySettings",
+    "description": "Set global privacy settings.",
+    "layer": "144",
+    "id": "1EDAAAC2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "SetPrivacy",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/set-privacy.html",
+    "import_syntax": "from pyrogram.raw.functions.account import SetPrivacy",
+    "description": "Change privacy settings of current account.",
+    "layer": "144",
+    "id": "C9F81CE8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UnregisterDevice",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/unregister-device.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UnregisterDevice",
+    "description": "Deletes a device by its token, stops sending PUSH-notifications to it.",
+    "layer": "144",
+    "id": "6A0D3206"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateDeviceLocked",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-device-locked.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateDeviceLocked",
+    "description": "When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications.",
+    "layer": "144",
+    "id": "38DF3532"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateNotifySettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-notify-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateNotifySettings",
+    "description": "Edits notification settings from a given user/group, from all users/all groups.",
+    "layer": "144",
+    "id": "84BE5B93"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdatePasswordSettings",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-password-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdatePasswordSettings",
+    "description": "Set a new 2FA password.",
+    "layer": "144",
+    "id": "A59B102F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateProfile",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-profile.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateProfile",
+    "description": "Updates user profile.",
+    "layer": "144",
+    "id": "78515775"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateStatus",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-status.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateStatus",
+    "description": "Updates online user status.",
+    "layer": "144",
+    "id": "6628562C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateTheme",
+    "description": "Update theme.",
+    "layer": "144",
+    "id": "2BF40CCC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UpdateUsername",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/update-username.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UpdateUsername",
+    "description": "Changes username for the current user.",
+    "layer": "144",
+    "id": "3E0BDD7C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UploadRingtone",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-ringtone.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UploadRingtone",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "831A83A2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UploadTheme",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UploadTheme",
+    "description": "Upload theme.",
+    "layer": "144",
+    "id": "1C3DB333"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "UploadWallPaper",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-wall-paper.html",
+    "import_syntax": "from pyrogram.raw.functions.account import UploadWallPaper",
+    "description": "Create and upload a new wallpaper.",
+    "layer": "144",
+    "id": "DD853661"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "VerifyEmail",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/verify-email.html",
+    "import_syntax": "from pyrogram.raw.functions.account import VerifyEmail",
+    "description": "Verify an email address for telegram passport.",
+    "layer": "144",
+    "id": "ECBA39DB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.account.",
+    "class_name": "VerifyPhone",
+    "category": "Account",
+    "docs": "https://docs.pyrogram.org/telegram/functions/account/verify-phone.html",
+    "import_syntax": "from pyrogram.raw.functions.account import VerifyPhone",
+    "description": "Verify a phone number for telegram passport.",
+    "layer": "144",
+    "id": "4DD3A7F6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "AcceptLoginToken",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/accept-login-token.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import AcceptLoginToken",
+    "description": "Accept QR code login token, logging in the app that generated it.",
+    "layer": "144",
+    "id": "E894AD4D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "BindTempAuthKey",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/bind-temp-auth-key.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import BindTempAuthKey",
+    "description": "Binds a temporary authorization key temp_auth_key_id to the permanent authorization key perm_auth_key_id. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.",
+    "layer": "144",
+    "id": "CDD42A05"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "CancelCode",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/cancel-code.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import CancelCode",
+    "description": "Cancel the login verification code.",
+    "layer": "144",
+    "id": "1F040578"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "CheckPassword",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/check-password.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import CheckPassword",
+    "description": "Try logging to an account protected by a 2FA password.",
+    "layer": "144",
+    "id": "D18B4D16"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "CheckRecoveryPassword",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/check-recovery-password.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import CheckRecoveryPassword",
+    "description": "Check if the 2FA recovery code sent using auth.requestPasswordRecovery is valid, before passing it to auth.recoverPassword.",
+    "layer": "144",
+    "id": "D36BF79"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "DropTempAuthKeys",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/drop-temp-auth-keys.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import DropTempAuthKeys",
+    "description": "Delete all temporary authorization keys except for the ones specified.",
+    "layer": "144",
+    "id": "8E48A188"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ExportAuthorization",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/export-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ExportAuthorization",
+    "description": "Returns data for copying authorization to another data-center.",
+    "layer": "144",
+    "id": "E5BFFFCD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ExportLoginToken",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/export-login-token.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ExportLoginToken",
+    "description": "Generate a login token, for login via QR code. The generated login token should be encoded using base64url, then shown as a tg://login?token=base64encodedtoken URL in the QR code.",
+    "layer": "144",
+    "id": "B7E085FE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ImportAuthorization",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ImportAuthorization",
+    "description": "Logs in a user using a key transmitted from his native data-center.",
+    "layer": "144",
+    "id": "A57A7DAD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ImportBotAuthorization",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-bot-authorization.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ImportBotAuthorization",
+    "description": "Login as a bot.",
+    "layer": "144",
+    "id": "67A3FF2C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ImportLoginToken",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-login-token.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ImportLoginToken",
+    "description": "Login using a redirected login token, generated in case of DC mismatch during QR code login.",
+    "layer": "144",
+    "id": "95AC5CE4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "LogOut",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/log-out.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import LogOut",
+    "description": "Logs out the user.",
+    "layer": "144",
+    "id": "3E72BA19"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "RecoverPassword",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/recover-password.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import RecoverPassword",
+    "description": "Reset the 2FA password using the recovery code sent using auth.requestPasswordRecovery.",
+    "layer": "144",
+    "id": "37096C70"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "RequestPasswordRecovery",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/request-password-recovery.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import RequestPasswordRecovery",
+    "description": "Request recovery code of a 2FA password, only for accounts with a recovery email configured.",
+    "layer": "144",
+    "id": "D897BC66"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ResendCode",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/resend-code.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ResendCode",
+    "description": "Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode.",
+    "layer": "144",
+    "id": "3EF1A9BF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "ResetAuthorizations",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/reset-authorizations.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import ResetAuthorizations",
+    "description": "Terminates all user’s authorized sessions except for the current one.",
+    "layer": "144",
+    "id": "9FAB0D1A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "SendCode",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/send-code.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import SendCode",
+    "description": "Send the verification code for login.",
+    "layer": "144",
+    "id": "A677244F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "SignIn",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/sign-in.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import SignIn",
+    "description": "Signs in a user with a validated phone number.",
+    "layer": "144",
+    "id": "BCD51581"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "class_name": "SignUp",
+    "category": "Auth",
+    "docs": "https://docs.pyrogram.org/telegram/functions/auth/sign-up.html",
+    "import_syntax": "from pyrogram.raw.functions.auth import SignUp",
+    "description": "Registers a validated phone number in the system.",
+    "layer": "144",
+    "id": "80EEE427"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "AnswerWebhookJSONQuery",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/answer-webhook-json-query.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import AnswerWebhookJSONQuery",
+    "description": "Answers a custom query; for bots only.",
+    "layer": "144",
+    "id": "E6213F4D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "GetBotCommands",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/get-bot-commands.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import GetBotCommands",
+    "description": "Obtain a list of bot commands for the specified bot scope and language code.",
+    "layer": "144",
+    "id": "E34C0DD6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "GetBotMenuButton",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/get-bot-menu-button.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import GetBotMenuButton",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "9C60EB28"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "ResetBotCommands",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/reset-bot-commands.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import ResetBotCommands",
+    "description": "Clear bot commands for the specified bot scope and language code.",
+    "layer": "144",
+    "id": "3D8DE0F9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "SendCustomRequest",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/send-custom-request.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import SendCustomRequest",
+    "description": "Sends a custom request; for bots only.",
+    "layer": "144",
+    "id": "AA2769ED"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "SetBotBroadcastDefaultAdminRights",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-broadcast-default-admin-rights.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import SetBotBroadcastDefaultAdminRights",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "788464E1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "SetBotCommands",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-commands.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import SetBotCommands",
+    "description": "Set bot command list.",
+    "layer": "144",
+    "id": "517165A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "SetBotGroupDefaultAdminRights",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-group-default-admin-rights.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import SetBotGroupDefaultAdminRights",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "925EC9EA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "class_name": "SetBotMenuButton",
+    "category": "Bots",
+    "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-menu-button.html",
+    "import_syntax": "from pyrogram.raw.functions.bots import SetBotMenuButton",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "4504D54F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "CheckUsername",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/check-username.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import CheckUsername",
+    "description": "Check if a username is free and can be assigned to a channel/supergroup.",
+    "layer": "144",
+    "id": "10E6BD2C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ConvertToGigagroup",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/convert-to-gigagroup.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ConvertToGigagroup",
+    "description": "Convert a supergroup to a gigagroup, when requested by channel suggestions.",
+    "layer": "144",
+    "id": "B290C69"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "CreateChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/create-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import CreateChannel",
+    "description": "Create a supergroup/channel.",
+    "layer": "144",
+    "id": "3D5FB10F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "DeleteChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import DeleteChannel",
+    "description": "Delete a channel/supergroup.",
+    "layer": "144",
+    "id": "C0111FE3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "DeleteHistory",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-history.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import DeleteHistory",
+    "description": "Delete the history of a supergroup.",
+    "layer": "144",
+    "id": "9BAA9647"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "DeleteMessages",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import DeleteMessages",
+    "description": "Delete messages in a channel/supergroup.",
+    "layer": "144",
+    "id": "84C1FD4E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "DeleteParticipantHistory",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-participant-history.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import DeleteParticipantHistory",
+    "description": "Delete all messages sent by a specific participant of a given supergroup.",
+    "layer": "144",
+    "id": "367544DB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditAdmin",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-admin.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditAdmin",
+    "description": "Modify the admin rights of a user in a supergroup/channel.",
+    "layer": "144",
+    "id": "D33C8902"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditBanned",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-banned.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditBanned",
+    "description": "Ban/unban/kick a user in a supergroup/channel.",
+    "layer": "144",
+    "id": "96E6CD81"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditCreator",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-creator.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditCreator",
+    "description": "Transfer channel ownership.",
+    "layer": "144",
+    "id": "8F38CD1F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditLocation",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-location.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditLocation",
+    "description": "Edit location of geogroup.",
+    "layer": "144",
+    "id": "58E63F6D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditPhoto",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-photo.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditPhoto",
+    "description": "Change the photo of a channel/supergroup.",
+    "layer": "144",
+    "id": "F12E57C9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "EditTitle",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-title.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import EditTitle",
+    "description": "Edit the name of a channel/supergroup.",
+    "layer": "144",
+    "id": "566DECD0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ExportMessageLink",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/export-message-link.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ExportMessageLink",
+    "description": "Get link and embed info of a message in a channel/supergroup.",
+    "layer": "144",
+    "id": "E63FADEB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetAdminLog",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-admin-log.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetAdminLog",
+    "description": "Get the admin log of a channel/supergroup.",
+    "layer": "144",
+    "id": "33DDF480"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetAdminedPublicChannels",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-admined-public-channels.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetAdminedPublicChannels",
+    "description": "Get channels/supergroups/geogroups we’re admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups.",
+    "layer": "144",
+    "id": "F8B036AF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetChannels",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-channels.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetChannels",
+    "description": "Get info about channels/supergroups.",
+    "layer": "144",
+    "id": "A7F6BBB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetFullChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-full-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetFullChannel",
+    "description": "Get full info about a supergroup, gigagroup or channel.",
+    "layer": "144",
+    "id": "8736A09"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetGroupsForDiscussion",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-groups-for-discussion.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetGroupsForDiscussion",
+    "description": "Get all groups that can be used as discussion groups.",
+    "layer": "144",
+    "id": "F5DAD378"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetInactiveChannels",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-inactive-channels.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetInactiveChannels",
+    "description": "Get inactive channels and supergroups.",
+    "layer": "144",
+    "id": "11E831EE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetLeftChannels",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-left-channels.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetLeftChannels",
+    "description": "Get a list of channels/supergroups we left.",
+    "layer": "144",
+    "id": "8341ECC0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetMessages",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetMessages",
+    "description": "Get channel/supergroup messages.",
+    "layer": "144",
+    "id": "AD8C9A23"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetParticipant",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-participant.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetParticipant",
+    "description": "Get info about a channel/supergroup participant.",
+    "layer": "144",
+    "id": "A0AB6CC6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetParticipants",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-participants.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetParticipants",
+    "description": "Get the participants of a supergroup/channel.",
+    "layer": "144",
+    "id": "77CED9D0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetSendAs",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-send-as.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetSendAs",
+    "description": "Obtains a list of peers that can be used to send messages in a specific group.",
+    "layer": "144",
+    "id": "DC770EE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "GetSponsoredMessages",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-sponsored-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import GetSponsoredMessages",
+    "description": "Get a list of sponsored messages.",
+    "layer": "144",
+    "id": "EC210FBF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "InviteToChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/invite-to-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import InviteToChannel",
+    "description": "Invite users to a channel/supergroup.",
+    "layer": "144",
+    "id": "199F3A6C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "JoinChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/join-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import JoinChannel",
+    "description": "Join a channel/supergroup.",
+    "layer": "144",
+    "id": "24B524C5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "LeaveChannel",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/leave-channel.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import LeaveChannel",
+    "description": "Leave a channel/supergroup.",
+    "layer": "144",
+    "id": "F836AA95"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ReadHistory",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/read-history.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ReadHistory",
+    "description": "Mark channel/supergroup history as read.",
+    "layer": "144",
+    "id": "CC104937"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ReadMessageContents",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/read-message-contents.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ReadMessageContents",
+    "description": "Mark channel/supergroup message contents as read.",
+    "layer": "144",
+    "id": "EAB5DC38"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ReportSpam",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/report-spam.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ReportSpam",
+    "description": "Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup.",
+    "layer": "144",
+    "id": "F44A8315"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "SetDiscussionGroup",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/set-discussion-group.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import SetDiscussionGroup",
+    "description": "Associate a group to a channel as discussion group for that channel.",
+    "layer": "144",
+    "id": "40582BB2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "SetStickers",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/set-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import SetStickers",
+    "description": "Associate a stickerset to the supergroup.",
+    "layer": "144",
+    "id": "EA8CA4F9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ToggleJoinRequest",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-join-request.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ToggleJoinRequest",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "4C2985B6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ToggleJoinToSend",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-join-to-send.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ToggleJoinToSend",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "E4CB9580"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "TogglePreHistoryHidden",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-pre-history-hidden.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import TogglePreHistoryHidden",
+    "description": "Hide/unhide message history for new channel/supergroup users.",
+    "layer": "144",
+    "id": "EABBB94C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ToggleSignatures",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-signatures.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ToggleSignatures",
+    "description": "Enable/disable message signatures in channels.",
+    "layer": "144",
+    "id": "1F69B606"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ToggleSlowMode",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-slow-mode.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ToggleSlowMode",
+    "description": "Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds.",
+    "layer": "144",
+    "id": "EDD49EF0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "UpdateUsername",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/update-username.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import UpdateUsername",
+    "description": "Change the username of a supergroup/channel.",
+    "layer": "144",
+    "id": "3514B3DE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "class_name": "ViewSponsoredMessage",
+    "category": "Channels",
+    "docs": "https://docs.pyrogram.org/telegram/functions/channels/view-sponsored-message.html",
+    "import_syntax": "from pyrogram.raw.functions.channels import ViewSponsoredMessage",
+    "description": "Mark a specific sponsored message as read.",
+    "layer": "144",
+    "id": "BEAEDB94"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "AcceptContact",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/accept-contact.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import AcceptContact",
+    "description": "If the peer settings of a new user allow us to add them as contact, add that user as contact.",
+    "layer": "144",
+    "id": "F831A20F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "AddContact",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/add-contact.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import AddContact",
+    "description": "Add an existing telegram user as contact.",
+    "layer": "144",
+    "id": "E8F463D0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "Block",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/block.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import Block",
+    "description": "Adds the user to the blacklist.",
+    "layer": "144",
+    "id": "68CC1411"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "BlockFromReplies",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/block-from-replies.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import BlockFromReplies",
+    "description": "Stop getting notifications about thread replies of a certain user in @replies.",
+    "layer": "144",
+    "id": "29A8962C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "DeleteByPhones",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/delete-by-phones.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import DeleteByPhones",
+    "description": "Delete contacts by phone number.",
+    "layer": "144",
+    "id": "1013FD9E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "DeleteContacts",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/delete-contacts.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import DeleteContacts",
+    "description": "Deletes several contacts from the list.",
+    "layer": "144",
+    "id": "96A0E00"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetBlocked",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-blocked.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetBlocked",
+    "description": "Returns the list of blocked users.",
+    "layer": "144",
+    "id": "F57C350F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetContactIDs",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-contact-i-ds.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetContactIDs",
+    "description": "Get contact by telegram IDs.",
+    "layer": "144",
+    "id": "7ADC669D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetContacts",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-contacts.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetContacts",
+    "description": "Returns the current user’s contact list.",
+    "layer": "144",
+    "id": "5DD69E12"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetLocated",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-located.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetLocated",
+    "description": "Get contacts near you.",
+    "layer": "144",
+    "id": "D348BC44"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetSaved",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-saved.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetSaved",
+    "description": "Get all contacts.",
+    "layer": "144",
+    "id": "82F1E39F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetStatuses",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-statuses.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetStatuses",
+    "description": "Returns the list of contact statuses.",
+    "layer": "144",
+    "id": "C4A353EE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "GetTopPeers",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-top-peers.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import GetTopPeers",
+    "description": "Get most used peers.",
+    "layer": "144",
+    "id": "973478B6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ImportContacts",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/import-contacts.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ImportContacts",
+    "description": "Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.",
+    "layer": "144",
+    "id": "2C800BE5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ResetSaved",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/reset-saved.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ResetSaved",
+    "description": "Delete saved contacts.",
+    "layer": "144",
+    "id": "879537F1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ResetTopPeerRating",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/reset-top-peer-rating.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ResetTopPeerRating",
+    "description": "Reset rating of top peer.",
+    "layer": "144",
+    "id": "1AE373AC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ResolvePhone",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/resolve-phone.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ResolvePhone",
+    "description": "Resolve a phone number to get user info, if their privacy settings allow it.",
+    "layer": "144",
+    "id": "8AF94344"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ResolveUsername",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/resolve-username.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ResolveUsername",
+    "description": "Resolve a @username to get peer info.",
+    "layer": "144",
+    "id": "F93CCBA3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "Search",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/search.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import Search",
+    "description": "Returns users found by username substring.",
+    "layer": "144",
+    "id": "11F812D8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "ToggleTopPeers",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/toggle-top-peers.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import ToggleTopPeers",
+    "description": "Enable/disable top peers.",
+    "layer": "144",
+    "id": "8514BDDA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "class_name": "Unblock",
+    "category": "Contacts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contacts/unblock.html",
+    "import_syntax": "from pyrogram.raw.functions.contacts import Unblock",
+    "description": "Deletes the user from the blacklist.",
+    "layer": "144",
+    "id": "BEA65D50"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.contest.",
+    "class_name": "SaveDeveloperInfo",
+    "category": "Contest",
+    "docs": "https://docs.pyrogram.org/telegram/functions/contest/save-developer-info.html",
+    "import_syntax": "from pyrogram.raw.functions.contest import SaveDeveloperInfo",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "9A5F6E95"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.folders.",
+    "class_name": "DeleteFolder",
+    "category": "Folders",
+    "docs": "https://docs.pyrogram.org/telegram/functions/folders/delete-folder.html",
+    "import_syntax": "from pyrogram.raw.functions.folders import DeleteFolder",
+    "description": "Delete a peer folder.",
+    "layer": "144",
+    "id": "1C295881"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.folders.",
+    "class_name": "EditPeerFolders",
+    "category": "Folders",
+    "docs": "https://docs.pyrogram.org/telegram/functions/folders/edit-peer-folders.html",
+    "import_syntax": "from pyrogram.raw.functions.folders import EditPeerFolders",
+    "description": "Edit peers in peer folder.",
+    "layer": "144",
+    "id": "6847D0AB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "AcceptTermsOfService",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/accept-terms-of-service.html",
+    "import_syntax": "from pyrogram.raw.functions.help import AcceptTermsOfService",
+    "description": "Accept the new terms of service.",
+    "layer": "144",
+    "id": "EE72F79A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "DismissSuggestion",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/dismiss-suggestion.html",
+    "import_syntax": "from pyrogram.raw.functions.help import DismissSuggestion",
+    "description": "Dismiss a suggestion.",
+    "layer": "144",
+    "id": "F50DBAA1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "EditUserInfo",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/edit-user-info.html",
+    "import_syntax": "from pyrogram.raw.functions.help import EditUserInfo",
+    "description": "Internal use.",
+    "layer": "144",
+    "id": "66B91B70"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetAppChangelog",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-changelog.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetAppChangelog",
+    "description": "Get changelog of current app. Typically, an updates constructor will be returned, containing one or more updateServiceNotification updates with app-specific changelogs.",
+    "layer": "144",
+    "id": "9010EF6F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetAppConfig",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-config.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetAppConfig",
+    "description": "Get app-specific configuration.",
+    "layer": "144",
+    "id": "98914110"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetAppUpdate",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-update.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetAppUpdate",
+    "description": "Returns information on update availability for the current application.",
+    "layer": "144",
+    "id": "522D5A7D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetCdnConfig",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-cdn-config.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetCdnConfig",
+    "description": "Get configuration for CDN file downloads.",
+    "layer": "144",
+    "id": "52029342"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetConfig",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-config.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetConfig",
+    "description": "Returns current configuration, including data center configuration.",
+    "layer": "144",
+    "id": "C4F9186B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetCountriesList",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-countries-list.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetCountriesList",
+    "description": "Get name, ISO code, localized name and phone codes/patterns of all available countries.",
+    "layer": "144",
+    "id": "735787A8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetDeepLinkInfo",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-deep-link-info.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetDeepLinkInfo",
+    "description": "Get info about a t.me link.",
+    "layer": "144",
+    "id": "3FEDC75F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetInviteText",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-invite-text.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetInviteText",
+    "description": "Returns localized text of a text message with an invitation.",
+    "layer": "144",
+    "id": "4D392343"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetNearestDc",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-nearest-dc.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetNearestDc",
+    "description": "Returns info on data center nearest to the user.",
+    "layer": "144",
+    "id": "1FB33026"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetPassportConfig",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-passport-config.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetPassportConfig",
+    "description": "Get passport configuration.",
+    "layer": "144",
+    "id": "C661AD08"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetPremiumPromo",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-premium-promo.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetPremiumPromo",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "B81B93D4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetPromoData",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-promo-data.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetPromoData",
+    "description": "Get MTProxy/Public Service Announcement information.",
+    "layer": "144",
+    "id": "C0977421"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetRecentMeUrls",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-recent-me-urls.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetRecentMeUrls",
+    "description": "Get recently used t.me links.",
+    "layer": "144",
+    "id": "3DC0F114"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetSupport",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-support.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetSupport",
+    "description": "Returns the support user for the “ask a question” feature.",
+    "layer": "144",
+    "id": "9CDF08CD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetSupportName",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-support-name.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetSupportName",
+    "description": "Get localized name of the telegram support user.",
+    "layer": "144",
+    "id": "D360E72C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetTermsOfServiceUpdate",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-terms-of-service-update.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetTermsOfServiceUpdate",
+    "description": "Look for updates of telegram’s terms of service.",
+    "layer": "144",
+    "id": "2CA51FD1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "GetUserInfo",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/get-user-info.html",
+    "import_syntax": "from pyrogram.raw.functions.help import GetUserInfo",
+    "description": "Internal use.",
+    "layer": "144",
+    "id": "38A08D3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "HidePromoData",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/hide-promo-data.html",
+    "import_syntax": "from pyrogram.raw.functions.help import HidePromoData",
+    "description": "Hide MTProxy/Public Service Announcement information.",
+    "layer": "144",
+    "id": "1E251C95"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "SaveAppLog",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/save-app-log.html",
+    "import_syntax": "from pyrogram.raw.functions.help import SaveAppLog",
+    "description": "Saves logs of application on the server.",
+    "layer": "144",
+    "id": "6F02F748"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.help.",
+    "class_name": "SetBotUpdatesStatus",
+    "category": "Help",
+    "docs": "https://docs.pyrogram.org/telegram/functions/help/set-bot-updates-status.html",
+    "import_syntax": "from pyrogram.raw.functions.help import SetBotUpdatesStatus",
+    "description": "Informs the server about the number of pending bot updates if they haven’t been processed for a long time; for bots only.",
+    "layer": "144",
+    "id": "EC22CFCD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "class_name": "GetDifference",
+    "category": "Langpack",
+    "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-difference.html",
+    "import_syntax": "from pyrogram.raw.functions.langpack import GetDifference",
+    "description": "Get new strings in language pack.",
+    "layer": "144",
+    "id": "CD984AA5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "class_name": "GetLangPack",
+    "category": "Langpack",
+    "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-lang-pack.html",
+    "import_syntax": "from pyrogram.raw.functions.langpack import GetLangPack",
+    "description": "Get localization pack strings.",
+    "layer": "144",
+    "id": "F2F2330A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "class_name": "GetLanguage",
+    "category": "Langpack",
+    "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-language.html",
+    "import_syntax": "from pyrogram.raw.functions.langpack import GetLanguage",
+    "description": "Get information about a language in a localization pack.",
+    "layer": "144",
+    "id": "6A596502"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "class_name": "GetLanguages",
+    "category": "Langpack",
+    "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-languages.html",
+    "import_syntax": "from pyrogram.raw.functions.langpack import GetLanguages",
+    "description": "Get information about all languages in a localization pack.",
+    "layer": "144",
+    "id": "42C6978F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "class_name": "GetStrings",
+    "category": "Langpack",
+    "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-strings.html",
+    "import_syntax": "from pyrogram.raw.functions.langpack import GetStrings",
+    "description": "Get strings from a language pack.",
+    "layer": "144",
+    "id": "EFEA3803"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "AcceptEncryption",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/accept-encryption.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import AcceptEncryption",
+    "description": "Confirms creation of a secret chat.",
+    "layer": "144",
+    "id": "3DBC0415"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "AcceptUrlAuth",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/accept-url-auth.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import AcceptUrlAuth",
+    "description": "Use this to accept a Seamless Telegram Login authorization request.",
+    "layer": "144",
+    "id": "B12C7125"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "AddChatUser",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/add-chat-user.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import AddChatUser",
+    "description": "Adds a user to a chat and sends a service message on it.",
+    "layer": "144",
+    "id": "F24753E3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "CheckChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import CheckChatInvite",
+    "description": "Check the validity of a chat invite link and get basic info about it.",
+    "layer": "144",
+    "id": "3EADB1BB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "CheckHistoryImport",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-history-import.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import CheckHistoryImport",
+    "description": "Obtains information about a chat export file, generated by a foreign chat app about imported chats.",
+    "layer": "144",
+    "id": "43FE19F3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "CheckHistoryImportPeer",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-history-import-peer.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import CheckHistoryImportPeer",
+    "description": "Check whether chat history exported from another chat app can be imported into a specific Telegram chat.",
+    "layer": "144",
+    "id": "5DC60F03"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ClearAllDrafts",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/clear-all-drafts.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ClearAllDrafts",
+    "description": "Clear all drafts.",
+    "layer": "144",
+    "id": "7E58EE9C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ClearRecentStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/clear-recent-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ClearRecentStickers",
+    "description": "Clear recent stickers.",
+    "layer": "144",
+    "id": "8999602D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "CreateChat",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/create-chat.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import CreateChat",
+    "description": "Creates a new chat.",
+    "layer": "144",
+    "id": "9CB126E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteChat",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-chat.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteChat",
+    "description": "Delete a chat.",
+    "layer": "144",
+    "id": "5BD0EE50"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteChatUser",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-chat-user.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteChatUser",
+    "description": "Deletes a user from a chat and sends a service message on it.",
+    "layer": "144",
+    "id": "A2185CAB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteExportedChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-exported-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteExportedChatInvite",
+    "description": "Delete a chat invite.",
+    "layer": "144",
+    "id": "D464A42B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteHistory",
+    "description": "Deletes communication history.",
+    "layer": "144",
+    "id": "B08F922A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteMessages",
+    "description": "Deletes messages by their identifiers.",
+    "layer": "144",
+    "id": "E58E95D2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeletePhoneCallHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-phone-call-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeletePhoneCallHistory",
+    "description": "Delete the entire phone call history.",
+    "layer": "144",
+    "id": "F9CBE409"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteRevokedExportedChatInvites",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-revoked-exported-chat-invites.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteRevokedExportedChatInvites",
+    "description": "Delete all revoked chat invites.",
+    "layer": "144",
+    "id": "56987BD5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DeleteScheduledMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-scheduled-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DeleteScheduledMessages",
+    "description": "Delete scheduled messages.",
+    "layer": "144",
+    "id": "59AE2B16"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "DiscardEncryption",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/discard-encryption.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import DiscardEncryption",
+    "description": "Cancels a request for creation and/or delete info on secret chat.",
+    "layer": "144",
+    "id": "F393AEA0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditChatAbout",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-about.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditChatAbout",
+    "description": "Edit the description of a group/supergroup/channel.",
+    "layer": "144",
+    "id": "DEF60797"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditChatAdmin",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-admin.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditChatAdmin",
+    "description": "Make a user admin in a basic group.",
+    "layer": "144",
+    "id": "A85BD1C2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditChatDefaultBannedRights",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-default-banned-rights.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditChatDefaultBannedRights",
+    "description": "Edit the default banned rights of a channel/supergroup/group.",
+    "layer": "144",
+    "id": "A5866B41"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditChatPhoto",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-photo.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditChatPhoto",
+    "description": "Changes chat photo and sends a service message on it.",
+    "layer": "144",
+    "id": "35DDD674"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditChatTitle",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-title.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditChatTitle",
+    "description": "Changes chat name and sends a service message on it.",
+    "layer": "144",
+    "id": "73783FFD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditExportedChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-exported-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditExportedChatInvite",
+    "description": "Edit an exported chat invite.",
+    "layer": "144",
+    "id": "BDCA2F75"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditInlineBotMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-inline-bot-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditInlineBotMessage",
+    "description": "Edit an inline bot message.",
+    "layer": "144",
+    "id": "83557DBA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "EditMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import EditMessage",
+    "description": "Edit message.",
+    "layer": "144",
+    "id": "48F71778"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ExportChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/export-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ExportChatInvite",
+    "description": "Export an invite link for a chat.",
+    "layer": "144",
+    "id": "A02CE5D5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "FaveSticker",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/fave-sticker.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import FaveSticker",
+    "description": "Mark or unmark a sticker as favorite.",
+    "layer": "144",
+    "id": "B9FFC55B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ForwardMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/forward-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ForwardMessages",
+    "description": "Forwards messages by their IDs.",
+    "layer": "144",
+    "id": "CC30290B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAdminsWithInvites",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-admins-with-invites.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAdminsWithInvites",
+    "description": "Get info about chat invites generated by admins.",
+    "layer": "144",
+    "id": "3920E6EF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAllChats",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-chats.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAllChats",
+    "description": "Get all chats, channels and supergroups.",
+    "layer": "144",
+    "id": "875F74BE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAllDrafts",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-drafts.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAllDrafts",
+    "description": "Save get all message drafts.",
+    "layer": "144",
+    "id": "6A3F8D65"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAllStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAllStickers",
+    "description": "Get all installed stickers.",
+    "layer": "144",
+    "id": "B8A0A1A8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetArchivedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-archived-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetArchivedStickers",
+    "description": "Get all archived stickers.",
+    "layer": "144",
+    "id": "57F17692"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAttachMenuBot",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attach-menu-bot.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAttachMenuBot",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "77216192"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAttachMenuBots",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attach-menu-bots.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAttachMenuBots",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "16FCC2CB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAttachedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attached-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAttachedStickers",
+    "description": "Get stickers attached to a photo or video.",
+    "layer": "144",
+    "id": "CC5B67CC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetAvailableReactions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-available-reactions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetAvailableReactions",
+    "description": "Obtain available message reactions.",
+    "layer": "144",
+    "id": "18DEA0AC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetBotCallbackAnswer",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-bot-callback-answer.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetBotCallbackAnswer",
+    "description": "Press an inline callback button and get a callback answer from the bot.",
+    "layer": "144",
+    "id": "9342CA07"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetChatInviteImporters",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-chat-invite-importers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetChatInviteImporters",
+    "description": "Get info about the users that joined the chat using a specific chat invite.",
+    "layer": "144",
+    "id": "DF04DD4E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetChats",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-chats.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetChats",
+    "description": "Returns chat basic info on their IDs.",
+    "layer": "144",
+    "id": "49E9528F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetCommonChats",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-common-chats.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetCommonChats",
+    "description": "Get chats in common with a user.",
+    "layer": "144",
+    "id": "E40CA104"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetCustomEmojiDocuments",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-custom-emoji-documents.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetCustomEmojiDocuments",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "D9AB0F54"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDhConfig",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dh-config.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDhConfig",
+    "description": "Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.",
+    "layer": "144",
+    "id": "26CF8950"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDialogFilters",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialog-filters.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDialogFilters",
+    "description": "Get folders.",
+    "layer": "144",
+    "id": "F19ED96D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDialogUnreadMarks",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialog-unread-marks.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDialogUnreadMarks",
+    "description": "Get dialogs manually marked as unread.",
+    "layer": "144",
+    "id": "22E24E22"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDialogs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialogs.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDialogs",
+    "description": "Returns the current user dialog list.",
+    "layer": "144",
+    "id": "A0F4CB4F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDiscussionMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-discussion-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDiscussionMessage",
+    "description": "Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group.",
+    "layer": "144",
+    "id": "446972FD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetDocumentByHash",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-document-by-hash.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetDocumentByHash",
+    "description": "Get a document by its SHA256 hash, mainly used for gifs.",
+    "layer": "144",
+    "id": "B1F2061F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetEmojiKeywords",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetEmojiKeywords",
+    "description": "Get localized emoji keywords.",
+    "layer": "144",
+    "id": "35A0E062"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetEmojiKeywordsDifference",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords-difference.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetEmojiKeywordsDifference",
+    "description": "Get changed emoji keywords.",
+    "layer": "144",
+    "id": "1508B6AF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetEmojiKeywordsLanguages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords-languages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetEmojiKeywordsLanguages",
+    "description": "Get info about an emoji keyword localization.",
+    "layer": "144",
+    "id": "4E9963B2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetEmojiStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetEmojiStickers",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "FBFCA18F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetEmojiURL",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-url.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetEmojiURL",
+    "description": "Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation.",
+    "layer": "144",
+    "id": "D5B10C26"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetExportedChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-exported-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetExportedChatInvite",
+    "description": "Get info about a chat invite.",
+    "layer": "144",
+    "id": "73746F5C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetExportedChatInvites",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-exported-chat-invites.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetExportedChatInvites",
+    "description": "Get info about the chat invites of a specific chat.",
+    "layer": "144",
+    "id": "A2B5A3F6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetFavedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-faved-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetFavedStickers",
+    "description": "Get faved stickers.",
+    "layer": "144",
+    "id": "4F1AAA9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetFeaturedEmojiStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-featured-emoji-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetFeaturedEmojiStickers",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "ECF6736"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetFeaturedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-featured-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetFeaturedStickers",
+    "description": "Get featured stickers.",
+    "layer": "144",
+    "id": "64780B14"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetFullChat",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-full-chat.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetFullChat",
+    "description": "Get full info about a basic group.",
+    "layer": "144",
+    "id": "AEB00B34"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetGameHighScores",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-game-high-scores.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetGameHighScores",
+    "description": "Get highscores of a game.",
+    "layer": "144",
+    "id": "E822649D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetHistory",
+    "description": "Gets back the conversation history with one interlocutor / within a chat.",
+    "layer": "144",
+    "id": "4423E6C5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetInlineBotResults",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-inline-bot-results.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetInlineBotResults",
+    "description": "Query an inline bot.",
+    "layer": "144",
+    "id": "514E999D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetInlineGameHighScores",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-inline-game-high-scores.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetInlineGameHighScores",
+    "description": "Get highscores of a game sent using an inline bot.",
+    "layer": "144",
+    "id": "F635E1B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMaskStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-mask-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMaskStickers",
+    "description": "Get installed mask stickers.",
+    "layer": "144",
+    "id": "640F82B8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessageEditData",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-edit-data.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessageEditData",
+    "description": "Find out if a media message’s caption can be edited.",
+    "layer": "144",
+    "id": "FDA68D36"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessageReactionsList",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-reactions-list.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessageReactionsList",
+    "description": "Get message reaction list, along with the sender of each reaction.",
+    "layer": "144",
+    "id": "E0EE6B77"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessageReadParticipants",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-read-participants.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessageReadParticipants",
+    "description": "Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent.",
+    "layer": "144",
+    "id": "2C6F97B7"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessages",
+    "description": "Returns the list of messages by their IDs.",
+    "layer": "144",
+    "id": "63C66506"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessagesReactions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages-reactions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessagesReactions",
+    "description": "Get message reactions.",
+    "layer": "144",
+    "id": "8BBA90E6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetMessagesViews",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages-views.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetMessagesViews",
+    "description": "Get and increase the view counter of a message sent or forwarded from a channel.",
+    "layer": "144",
+    "id": "5784D3E1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetOldFeaturedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-old-featured-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetOldFeaturedStickers",
+    "description": "Method for fetching previously featured stickers.",
+    "layer": "144",
+    "id": "7ED094A1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetOnlines",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-onlines.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetOnlines",
+    "description": "Get count of online users in a chat.",
+    "layer": "144",
+    "id": "6E2BE050"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetPeerDialogs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-peer-dialogs.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetPeerDialogs",
+    "description": "Get dialog info of specified peers.",
+    "layer": "144",
+    "id": "E470BCFD"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetPeerSettings",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-peer-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetPeerSettings",
+    "description": "Get peer settings.",
+    "layer": "144",
+    "id": "EFD9A6A2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetPinnedDialogs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-pinned-dialogs.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetPinnedDialogs",
+    "description": "Get pinned dialogs.",
+    "layer": "144",
+    "id": "D6B94DF2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetPollResults",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-poll-results.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetPollResults",
+    "description": "Get poll results.",
+    "layer": "144",
+    "id": "73BB643B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetPollVotes",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-poll-votes.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetPollVotes",
+    "description": "Get poll results for non-anonymous polls.",
+    "layer": "144",
+    "id": "B86E380E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetRecentLocations",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-recent-locations.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetRecentLocations",
+    "description": "Get live location history of a certain user.",
+    "layer": "144",
+    "id": "702A40E0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetRecentStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-recent-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetRecentStickers",
+    "description": "Get recent stickers.",
+    "layer": "144",
+    "id": "9DA9403B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetReplies",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-replies.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetReplies",
+    "description": "Get messages in a reply thread.",
+    "layer": "144",
+    "id": "22DDD30C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSavedGifs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-saved-gifs.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSavedGifs",
+    "description": "Get saved GIFs.",
+    "layer": "144",
+    "id": "5CF09635"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetScheduledHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-scheduled-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetScheduledHistory",
+    "description": "Get scheduled messages.",
+    "layer": "144",
+    "id": "F516760B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetScheduledMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-scheduled-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetScheduledMessages",
+    "description": "Get scheduled messages.",
+    "layer": "144",
+    "id": "BDBB0464"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSearchCounters",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-counters.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSearchCounters",
+    "description": "Get the number of results that would be found by a messages.search call with the same parameters.",
+    "layer": "144",
+    "id": "732EEF00"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSearchResultsCalendar",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-results-calendar.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSearchResultsCalendar",
+    "description": "Returns information about the next messages of the specified type in the chat split by days.",
+    "layer": "144",
+    "id": "49F0BDE9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSearchResultsPositions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-results-positions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSearchResultsPositions",
+    "description": "Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation.",
+    "layer": "144",
+    "id": "6E9583A3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSplitRanges",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-split-ranges.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSplitRanges",
+    "description": "Get message ranges for saving the user’s chat history.",
+    "layer": "144",
+    "id": "1CFF7E08"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetStickerSet",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-sticker-set.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetStickerSet",
+    "description": "Get info about a stickerset.",
+    "layer": "144",
+    "id": "C8A0EC74"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetStickers",
+    "description": "Get stickers by emoji.",
+    "layer": "144",
+    "id": "D5A5D3A1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetSuggestedDialogFilters",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-suggested-dialog-filters.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetSuggestedDialogFilters",
+    "description": "Get suggested folders.",
+    "layer": "144",
+    "id": "A29CD42C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetUnreadMentions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-unread-mentions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetUnreadMentions",
+    "description": "Get unread messages where we were mentioned.",
+    "layer": "144",
+    "id": "46578472"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetUnreadReactions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-unread-reactions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetUnreadReactions",
+    "description": "Get unread reactions to messages you sent.",
+    "layer": "144",
+    "id": "E85BAE1A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetWebPage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-web-page.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetWebPage",
+    "description": "Get instant view page.",
+    "layer": "144",
+    "id": "32CA8F91"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "GetWebPagePreview",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-web-page-preview.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import GetWebPagePreview",
+    "description": "Get preview of webpage.",
+    "layer": "144",
+    "id": "8B68B0CC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "HideAllChatJoinRequests",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-all-chat-join-requests.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import HideAllChatJoinRequests",
+    "description": "Dismiss or approve all join requests related to a specific chat or channel.",
+    "layer": "144",
+    "id": "E085F4EA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "HideChatJoinRequest",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-chat-join-request.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import HideChatJoinRequest",
+    "description": "Dismiss or approve a chat join request related to a specific chat or channel.",
+    "layer": "144",
+    "id": "7FE7E815"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "HidePeerSettingsBar",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-peer-settings-bar.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import HidePeerSettingsBar",
+    "description": "Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the peer’s settings.",
+    "layer": "144",
+    "id": "4FACB138"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ImportChatInvite",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/import-chat-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ImportChatInvite",
+    "description": "Import a chat invite and join a private chat/supergroup/channel.",
+    "layer": "144",
+    "id": "6C50051C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "InitHistoryImport",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/init-history-import.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import InitHistoryImport",
+    "description": "Import chat history from a foreign chat app into a specific Telegram chat about imported chats.",
+    "layer": "144",
+    "id": "34090C3B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "InstallStickerSet",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/install-sticker-set.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import InstallStickerSet",
+    "description": "Install a stickerset.",
+    "layer": "144",
+    "id": "C78FE460"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "MarkDialogUnread",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/mark-dialog-unread.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import MarkDialogUnread",
+    "description": "Manually mark dialog as unread.",
+    "layer": "144",
+    "id": "C286D98F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "MigrateChat",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/migrate-chat.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import MigrateChat",
+    "description": "Turn a basic group into a supergroup.",
+    "layer": "144",
+    "id": "A2875319"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ProlongWebView",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/prolong-web-view.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ProlongWebView",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "EA5FBCCE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "RateTranscribedAudio",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/rate-transcribed-audio.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import RateTranscribedAudio",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "7F1D072F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadDiscussion",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-discussion.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadDiscussion",
+    "description": "Mark a thread as read.",
+    "layer": "144",
+    "id": "F731A9F4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadEncryptedHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-encrypted-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadEncryptedHistory",
+    "description": "Marks message history within a secret chat as read.",
+    "layer": "144",
+    "id": "7F4B690A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadFeaturedStickers",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-featured-stickers.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadFeaturedStickers",
+    "description": "Mark new featured stickers as read.",
+    "layer": "144",
+    "id": "5B118126"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadHistory",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-history.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadHistory",
+    "description": "Marks message history as read.",
+    "layer": "144",
+    "id": "E306D3A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadMentions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-mentions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadMentions",
+    "description": "Mark mentions as read.",
+    "layer": "144",
+    "id": "F0189D3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadMessageContents",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-message-contents.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadMessageContents",
+    "description": "Notifies the sender about the recipient having listened a voice message or watched a video.",
+    "layer": "144",
+    "id": "36A73F77"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReadReactions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-reactions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReadReactions",
+    "description": "Mark message reactions » as read.",
+    "layer": "144",
+    "id": "82E251D7"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReceivedMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/received-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReceivedMessages",
+    "description": "Confirms receipt of messages by a client, cancels PUSH-notification sending.",
+    "layer": "144",
+    "id": "5A954C0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReceivedQueue",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/received-queue.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReceivedQueue",
+    "description": "Confirms receipt of messages in a secret chat by client, cancels push notifications.",
+    "layer": "144",
+    "id": "55A5BB66"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReorderPinnedDialogs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/reorder-pinned-dialogs.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReorderPinnedDialogs",
+    "description": "Reorder pinned dialogs.",
+    "layer": "144",
+    "id": "3B1ADF37"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReorderStickerSets",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/reorder-sticker-sets.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReorderStickerSets",
+    "description": "Reorder installed stickersets.",
+    "layer": "144",
+    "id": "78337739"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "Report",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/report.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import Report",
+    "description": "Report a message in a chat for violation of telegram’s Terms of Service.",
+    "layer": "144",
+    "id": "8953AB4E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReportEncryptedSpam",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/report-encrypted-spam.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReportEncryptedSpam",
+    "description": "Report a secret chat for spam.",
+    "layer": "144",
+    "id": "4B0C8C0F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ReportSpam",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/report-spam.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ReportSpam",
+    "description": "Report a new incoming chat for spam, if the peer settings of the chat allow us to do that.",
+    "layer": "144",
+    "id": "CF1592DB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "RequestEncryption",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-encryption.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import RequestEncryption",
+    "description": "Sends a request to start a secret chat to the user.",
+    "layer": "144",
+    "id": "F64DAF43"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "RequestSimpleWebView",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-simple-web-view.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import RequestSimpleWebView",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "6ABB2F73"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "RequestUrlAuth",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-url-auth.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import RequestUrlAuth",
+    "description": "Get more info about a Seamless Telegram Login authorization request.",
+    "layer": "144",
+    "id": "198FB446"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "RequestWebView",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-web-view.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import RequestWebView",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "91B15831"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SaveDefaultSendAs",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-default-send-as.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SaveDefaultSendAs",
+    "description": "Change the default peer that should be used when sending messages to a specific group.",
+    "layer": "144",
+    "id": "CCFDDF96"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SaveDraft",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-draft.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SaveDraft",
+    "description": "Save a message draft associated to a chat.",
+    "layer": "144",
+    "id": "BC39E14B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SaveGif",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-gif.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SaveGif",
+    "description": "Add GIF to saved gifs list.",
+    "layer": "144",
+    "id": "327A30CB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SaveRecentSticker",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-recent-sticker.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SaveRecentSticker",
+    "description": "Add/remove sticker from recent stickers list.",
+    "layer": "144",
+    "id": "392718F8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "Search",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/search.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import Search",
+    "description": "Gets back found messages.",
+    "layer": "144",
+    "id": "A0FDA762"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SearchGlobal",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-global.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SearchGlobal",
+    "description": "Search for messages and peers globally.",
+    "layer": "144",
+    "id": "4BC6589A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SearchSentMedia",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-sent-media.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SearchSentMedia",
+    "description": "View and search recently sent media. This method does not support pagination.",
+    "layer": "144",
+    "id": "107E31A0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SearchStickerSets",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-sticker-sets.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SearchStickerSets",
+    "description": "Search for stickersets.",
+    "layer": "144",
+    "id": "35705B8A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendEncrypted",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendEncrypted",
+    "description": "Sends a text message to a secret chat.",
+    "layer": "144",
+    "id": "44FA7A15"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendEncryptedFile",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted-file.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendEncryptedFile",
+    "description": "Sends a message with a file attachment to a secret chat.",
+    "layer": "144",
+    "id": "5559481D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendEncryptedService",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted-service.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendEncryptedService",
+    "description": "Sends a service message to a secret chat.",
+    "layer": "144",
+    "id": "32D439A4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendInlineBotResult",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-inline-bot-result.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendInlineBotResult",
+    "description": "Send a result obtained using messages.getInlineBotResults.",
+    "layer": "144",
+    "id": "7AA11297"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendMedia",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-media.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendMedia",
+    "description": "Send a media.",
+    "layer": "144",
+    "id": "E25FF8E0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendMessage",
+    "description": "Sends a message to a chat.",
+    "layer": "144",
+    "id": "D9D75A4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendMultiMedia",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-multi-media.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendMultiMedia",
+    "description": "Send an album or grouped media.",
+    "layer": "144",
+    "id": "F803138F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendReaction",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-reaction.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendReaction",
+    "description": "React to message.",
+    "layer": "144",
+    "id": "25690CE4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendScheduledMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-scheduled-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendScheduledMessages",
+    "description": "Send scheduled messages right away.",
+    "layer": "144",
+    "id": "BD38850A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendScreenshotNotification",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-screenshot-notification.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendScreenshotNotification",
+    "description": "Notify the other user in a private chat that a screenshot of the chat was taken.",
+    "layer": "144",
+    "id": "C97DF020"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendVote",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-vote.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendVote",
+    "description": "Vote in a poll.",
+    "layer": "144",
+    "id": "10EA6184"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendWebViewData",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-web-view-data.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendWebViewData",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "DC0242C8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SendWebViewResultMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-web-view-result-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SendWebViewResultMessage",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "A4314F5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetBotCallbackAnswer",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-callback-answer.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetBotCallbackAnswer",
+    "description": "Set the callback answer to a user button press (bots only).",
+    "layer": "144",
+    "id": "D58F130A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetBotPrecheckoutResults",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-precheckout-results.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetBotPrecheckoutResults",
+    "description": "Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update. Use this method to respond to such pre-checkout queries. Note: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent.",
+    "layer": "144",
+    "id": "9C2DD95"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetBotShippingResults",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-shipping-results.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetBotShippingResults",
+    "description": "If you sent an invoice requesting a shipping address and the parameter is_flexible was specified, the bot will receive an updateBotShippingQuery update. Use this method to reply to shipping queries.",
+    "layer": "144",
+    "id": "E5F672FA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetChatAvailableReactions",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-chat-available-reactions.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetChatAvailableReactions",
+    "description": "Change the set of message reactions » that can be used in a certain group, supergroup or channel.",
+    "layer": "144",
+    "id": "14050EA6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetChatTheme",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-chat-theme.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetChatTheme",
+    "description": "Change the chat theme of a certain chat.",
+    "layer": "144",
+    "id": "E63BE13F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetDefaultReaction",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-default-reaction.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetDefaultReaction",
+    "description": "Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getAppConfig, reactions_default field.",
+    "layer": "144",
+    "id": "D960C4D4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetEncryptedTyping",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-encrypted-typing.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetEncryptedTyping",
+    "description": "Send typing event by the current user to a secret chat.",
+    "layer": "144",
+    "id": "791451ED"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetGameScore",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-game-score.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetGameScore",
+    "description": "Use this method to set the score of the specified user in a game sent as a normal message (bots only).",
+    "layer": "144",
+    "id": "8EF8ECC0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetHistoryTTL",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-history-ttl.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetHistoryTTL",
+    "description": "Set maximum Time-To-Live of all messages in the specified chat.",
+    "layer": "144",
+    "id": "B80E5FE4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetInlineBotResults",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-inline-bot-results.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetInlineBotResults",
+    "description": "Answer an inline query, for bots only.",
+    "layer": "144",
+    "id": "EB5EA206"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetInlineGameScore",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-inline-game-score.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetInlineGameScore",
+    "description": "Use this method to set the score of the specified user in a game sent as an inline message (bots only).",
+    "layer": "144",
+    "id": "15AD9F64"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "SetTyping",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-typing.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import SetTyping",
+    "description": "Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group.",
+    "layer": "144",
+    "id": "58943EE2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "StartBot",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/start-bot.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import StartBot",
+    "description": "Start a conversation with a bot using a deep linking parameter.",
+    "layer": "144",
+    "id": "E6DF7378"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "StartHistoryImport",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/start-history-import.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import StartHistoryImport",
+    "description": "Complete the history import process, importing all messages into the chat. To be called only after initializing the import with messages.initHistoryImport and uploading all files using messages.uploadImportedMedia.",
+    "layer": "144",
+    "id": "B43DF344"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ToggleBotInAttachMenu",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-bot-in-attach-menu.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ToggleBotInAttachMenu",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "1AEE33AF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ToggleDialogPin",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-dialog-pin.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ToggleDialogPin",
+    "description": "Pin/unpin a dialog.",
+    "layer": "144",
+    "id": "A731E257"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ToggleNoForwards",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-no-forwards.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ToggleNoForwards",
+    "description": "Enable or disable content protection on a channel or chat.",
+    "layer": "144",
+    "id": "B11EAFA2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "ToggleStickerSets",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-sticker-sets.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import ToggleStickerSets",
+    "description": "Apply changes to multiple stickersets.",
+    "layer": "144",
+    "id": "B5052FEA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "TranscribeAudio",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/transcribe-audio.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import TranscribeAudio",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "269E9A49"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "TranslateText",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/translate-text.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import TranslateText",
+    "description": "Translate a given text.",
+    "layer": "144",
+    "id": "24CE6DEE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UninstallStickerSet",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/uninstall-sticker-set.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UninstallStickerSet",
+    "description": "Uninstall a stickerset.",
+    "layer": "144",
+    "id": "F96E55DE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UnpinAllMessages",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/unpin-all-messages.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UnpinAllMessages",
+    "description": "Unpin all pinned messages.",
+    "layer": "144",
+    "id": "F025BC8B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UpdateDialogFilter",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-dialog-filter.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UpdateDialogFilter",
+    "description": "Update folder.",
+    "layer": "144",
+    "id": "1AD4A04A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UpdateDialogFiltersOrder",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-dialog-filters-order.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UpdateDialogFiltersOrder",
+    "description": "Reorder folders.",
+    "layer": "144",
+    "id": "C563C1E4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UpdatePinnedMessage",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-pinned-message.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UpdatePinnedMessage",
+    "description": "Pin a message.",
+    "layer": "144",
+    "id": "D2AAF7EC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UploadEncryptedFile",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-encrypted-file.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UploadEncryptedFile",
+    "description": "Upload encrypted file and associate it to a secret chat.",
+    "layer": "144",
+    "id": "5057C497"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UploadImportedMedia",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-imported-media.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UploadImportedMedia",
+    "description": "Upload a media file associated with an imported chat.",
+    "layer": "144",
+    "id": "2A862092"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "class_name": "UploadMedia",
+    "category": "Messages",
+    "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-media.html",
+    "import_syntax": "from pyrogram.raw.functions.messages import UploadMedia",
+    "description": "Upload a file and associate it to a chat (without actually sending it to the chat).",
+    "layer": "144",
+    "id": "519BC2B1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "AssignAppStoreTransaction",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/assign-app-store-transaction.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import AssignAppStoreTransaction",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "80ED747D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "AssignPlayMarketTransaction",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/assign-play-market-transaction.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import AssignPlayMarketTransaction",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "DFFD50D3"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "CanPurchasePremium",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/can-purchase-premium.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import CanPurchasePremium",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "9FC19EB6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "ClearSavedInfo",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/clear-saved-info.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import ClearSavedInfo",
+    "description": "Clear saved payment information.",
+    "layer": "144",
+    "id": "D83D70C1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "ExportInvoice",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/export-invoice.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import ExportInvoice",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "F91B065"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "GetBankCardData",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-bank-card-data.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import GetBankCardData",
+    "description": "Get info about a credit card.",
+    "layer": "144",
+    "id": "2E79D779"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "GetPaymentForm",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-payment-form.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import GetPaymentForm",
+    "description": "Get a payment form.",
+    "layer": "144",
+    "id": "37148DBB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "GetPaymentReceipt",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-payment-receipt.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import GetPaymentReceipt",
+    "description": "Get payment receipt.",
+    "layer": "144",
+    "id": "2478D1CC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "GetSavedInfo",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-saved-info.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import GetSavedInfo",
+    "description": "Get saved payment information.",
+    "layer": "144",
+    "id": "227D824B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "RequestRecurringPayment",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/request-recurring-payment.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import RequestRecurringPayment",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "146E958D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "SendPaymentForm",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/send-payment-form.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import SendPaymentForm",
+    "description": "Send compiled payment form.",
+    "layer": "144",
+    "id": "2D03522F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "class_name": "ValidateRequestedInfo",
+    "category": "Payments",
+    "docs": "https://docs.pyrogram.org/telegram/functions/payments/validate-requested-info.html",
+    "import_syntax": "from pyrogram.raw.functions.payments import ValidateRequestedInfo",
+    "description": "Submit requested order information for validation.",
+    "layer": "144",
+    "id": "B6C8F12B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "AcceptCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/accept-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import AcceptCall",
+    "description": "Accept incoming call.",
+    "layer": "144",
+    "id": "3BD2B4A0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "CheckGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/check-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import CheckGroupCall",
+    "description": "Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.",
+    "layer": "144",
+    "id": "B59CF977"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ConfirmCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/confirm-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ConfirmCall",
+    "description": "Complete phone call E2E encryption key exchange.",
+    "layer": "144",
+    "id": "2EFE1722"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "CreateGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/create-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import CreateGroupCall",
+    "description": "Create a group call or livestream.",
+    "layer": "144",
+    "id": "48CDC6D8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "DiscardCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/discard-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import DiscardCall",
+    "description": "Refuse or end running call.",
+    "layer": "144",
+    "id": "B2CBC1C0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "DiscardGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/discard-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import DiscardGroupCall",
+    "description": "Terminate a group call.",
+    "layer": "144",
+    "id": "7A777135"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "EditGroupCallParticipant",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/edit-group-call-participant.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import EditGroupCallParticipant",
+    "description": "Edit information about a given group call participant.",
+    "layer": "144",
+    "id": "A5273ABF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "EditGroupCallTitle",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/edit-group-call-title.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import EditGroupCallTitle",
+    "description": "Edit the title of a group call or livestream.",
+    "layer": "144",
+    "id": "1CA6AC0A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ExportGroupCallInvite",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/export-group-call-invite.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ExportGroupCallInvite",
+    "description": "Get an invite link for a group call or livestream.",
+    "layer": "144",
+    "id": "E6AA647F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetCallConfig",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-call-config.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetCallConfig",
+    "description": "Get phone call configuration to be passed to libtgvoip’s shared config.",
+    "layer": "144",
+    "id": "55451FA9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetGroupCall",
+    "description": "Get info about a group call.",
+    "layer": "144",
+    "id": "41845DB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetGroupCallJoinAs",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-join-as.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetGroupCallJoinAs",
+    "description": "Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel.",
+    "layer": "144",
+    "id": "EF7C213A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetGroupCallStreamChannels",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-stream-channels.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetGroupCallStreamChannels",
+    "description": "Get info about RTMP streams in a group call or livestream. This method should be invoked to the same group/channel-related DC used for downloading livestream chunks. As usual, the media DC is preferred, if available.",
+    "layer": "144",
+    "id": "1AB21940"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetGroupCallStreamRtmpUrl",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-stream-rtmp-url.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetGroupCallStreamRtmpUrl",
+    "description": "Get RTMP URL and stream key for RTMP livestreams. Can be used even before creating the actual RTMP livestream with phone.createGroupCall (the rtmp_stream flag must be set).",
+    "layer": "144",
+    "id": "DEB3ABBF"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "GetGroupParticipants",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-participants.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import GetGroupParticipants",
+    "description": "Get group call participants.",
+    "layer": "144",
+    "id": "C558D8AB"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "InviteToGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/invite-to-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import InviteToGroupCall",
+    "description": "Invite a set of users to a group call.",
+    "layer": "144",
+    "id": "7B393160"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "JoinGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/join-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import JoinGroupCall",
+    "description": "Join a group call.",
+    "layer": "144",
+    "id": "B132FF7B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "JoinGroupCallPresentation",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/join-group-call-presentation.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import JoinGroupCallPresentation",
+    "description": "Start screen sharing in a call.",
+    "layer": "144",
+    "id": "CBEA6BC4"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "LeaveGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/leave-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import LeaveGroupCall",
+    "description": "Leave a group call.",
+    "layer": "144",
+    "id": "500377F9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "LeaveGroupCallPresentation",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/leave-group-call-presentation.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import LeaveGroupCallPresentation",
+    "description": "Stop screen sharing in a group call.",
+    "layer": "144",
+    "id": "1C50D144"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ReceivedCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/received-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ReceivedCall",
+    "description": "Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended.",
+    "layer": "144",
+    "id": "17D54F61"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "RequestCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/request-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import RequestCall",
+    "description": "Start a telegram phone call.",
+    "layer": "144",
+    "id": "42FF96ED"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "SaveCallDebug",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-call-debug.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import SaveCallDebug",
+    "description": "Send phone call debug data to server.",
+    "layer": "144",
+    "id": "277ADD7E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "SaveCallLog",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-call-log.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import SaveCallLog",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "41248786"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "SaveDefaultGroupCallJoinAs",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-default-group-call-join-as.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import SaveDefaultGroupCallJoinAs",
+    "description": "Set the default peer that will be used to join a group call in a specific dialog.",
+    "layer": "144",
+    "id": "575E1F8C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "SendSignalingData",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/send-signaling-data.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import SendSignalingData",
+    "description": "Send VoIP signaling data.",
+    "layer": "144",
+    "id": "FF7A9383"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "SetCallRating",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/set-call-rating.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import SetCallRating",
+    "description": "Rate a call.",
+    "layer": "144",
+    "id": "59EAD627"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "StartScheduledGroupCall",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/start-scheduled-group-call.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import StartScheduledGroupCall",
+    "description": "Start a scheduled group call.",
+    "layer": "144",
+    "id": "5680E342"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ToggleGroupCallRecord",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-record.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ToggleGroupCallRecord",
+    "description": "Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages (the chat with ourselves).",
+    "layer": "144",
+    "id": "F128C708"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ToggleGroupCallSettings",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-settings.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ToggleGroupCallSettings",
+    "description": "Change group call settings.",
+    "layer": "144",
+    "id": "74BBB43D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "class_name": "ToggleGroupCallStartSubscription",
+    "category": "Phone",
+    "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-start-subscription.html",
+    "import_syntax": "from pyrogram.raw.functions.phone import ToggleGroupCallStartSubscription",
+    "description": "Subscribe or unsubscribe to a scheduled group call.",
+    "layer": "144",
+    "id": "219C34E6"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "class_name": "DeletePhotos",
+    "category": "Photos",
+    "docs": "https://docs.pyrogram.org/telegram/functions/photos/delete-photos.html",
+    "import_syntax": "from pyrogram.raw.functions.photos import DeletePhotos",
+    "description": "Deletes profile photos.",
+    "layer": "144",
+    "id": "87CF7F2F"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "class_name": "GetUserPhotos",
+    "category": "Photos",
+    "docs": "https://docs.pyrogram.org/telegram/functions/photos/get-user-photos.html",
+    "import_syntax": "from pyrogram.raw.functions.photos import GetUserPhotos",
+    "description": "Returns the list of user photos.",
+    "layer": "144",
+    "id": "91CD32A8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "class_name": "UpdateProfilePhoto",
+    "category": "Photos",
+    "docs": "https://docs.pyrogram.org/telegram/functions/photos/update-profile-photo.html",
+    "import_syntax": "from pyrogram.raw.functions.photos import UpdateProfilePhoto",
+    "description": "Installs a previously uploaded photo as a profile photo.",
+    "layer": "144",
+    "id": "72D4742C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "class_name": "UploadProfilePhoto",
+    "category": "Photos",
+    "docs": "https://docs.pyrogram.org/telegram/functions/photos/upload-profile-photo.html",
+    "import_syntax": "from pyrogram.raw.functions.photos import UploadProfilePhoto",
+    "description": "Updates current user profile photo.",
+    "layer": "144",
+    "id": "89F30F69"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "class_name": "GetBroadcastStats",
+    "category": "Stats",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-broadcast-stats.html",
+    "import_syntax": "from pyrogram.raw.functions.stats import GetBroadcastStats",
+    "description": "Get channel statistics.",
+    "layer": "144",
+    "id": "AB42441A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "class_name": "GetMegagroupStats",
+    "category": "Stats",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-megagroup-stats.html",
+    "import_syntax": "from pyrogram.raw.functions.stats import GetMegagroupStats",
+    "description": "Get supergroup statistics.",
+    "layer": "144",
+    "id": "DCDF8607"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "class_name": "GetMessagePublicForwards",
+    "category": "Stats",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-message-public-forwards.html",
+    "import_syntax": "from pyrogram.raw.functions.stats import GetMessagePublicForwards",
+    "description": "Obtains a list of messages, indicating to which other public channels was a channel message forwarded. Will return a list of messages with peer_id equal to the public channel to which this message was forwarded.",
+    "layer": "144",
+    "id": "5630281B"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "class_name": "GetMessageStats",
+    "category": "Stats",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-message-stats.html",
+    "import_syntax": "from pyrogram.raw.functions.stats import GetMessageStats",
+    "description": "Get message statistics.",
+    "layer": "144",
+    "id": "B6E0A3F5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "class_name": "LoadAsyncGraph",
+    "category": "Stats",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stats/load-async-graph.html",
+    "import_syntax": "from pyrogram.raw.functions.stats import LoadAsyncGraph",
+    "description": "Load channel statistics graph asynchronously.",
+    "layer": "144",
+    "id": "621D5FA0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "AddStickerToSet",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/add-sticker-to-set.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import AddStickerToSet",
+    "description": "Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot.",
+    "layer": "144",
+    "id": "8653FEBE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "ChangeStickerPosition",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/change-sticker-position.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import ChangeStickerPosition",
+    "description": "Changes the absolute position of a sticker in the set to which it belongs; for bots only. The sticker set must have been created by the bot.",
+    "layer": "144",
+    "id": "FFB6D4CA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "CheckShortName",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/check-short-name.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import CheckShortName",
+    "description": "Check whether the given short name is available.",
+    "layer": "144",
+    "id": "284B3639"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "CreateStickerSet",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/create-sticker-set.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import CreateStickerSet",
+    "description": "Create a stickerset, bots only.",
+    "layer": "144",
+    "id": "9021AB67"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "RemoveStickerFromSet",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/remove-sticker-from-set.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import RemoveStickerFromSet",
+    "description": "Remove a sticker from the set where it belongs, bots only. The sticker set must have been created by the bot.",
+    "layer": "144",
+    "id": "F7760F51"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "SetStickerSetThumb",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/set-sticker-set-thumb.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import SetStickerSetThumb",
+    "description": "Set stickerset thumbnail.",
+    "layer": "144",
+    "id": "9A364E30"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "class_name": "SuggestShortName",
+    "category": "Stickers",
+    "docs": "https://docs.pyrogram.org/telegram/functions/stickers/suggest-short-name.html",
+    "import_syntax": "from pyrogram.raw.functions.stickers import SuggestShortName",
+    "description": "Suggests a short name for a given stickerpack name.",
+    "layer": "144",
+    "id": "4DAFC503"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "class_name": "GetChannelDifference",
+    "category": "Updates",
+    "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-channel-difference.html",
+    "import_syntax": "from pyrogram.raw.functions.updates import GetChannelDifference",
+    "description": "Returns the difference between the current state of updates of a certain channel and transmitted.",
+    "layer": "144",
+    "id": "3173D78"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "class_name": "GetDifference",
+    "category": "Updates",
+    "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-difference.html",
+    "import_syntax": "from pyrogram.raw.functions.updates import GetDifference",
+    "description": "Get new updates.",
+    "layer": "144",
+    "id": "25939651"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "class_name": "GetState",
+    "category": "Updates",
+    "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-state.html",
+    "import_syntax": "from pyrogram.raw.functions.updates import GetState",
+    "description": "Returns a current state of updates.",
+    "layer": "144",
+    "id": "EDD4882A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "GetCdnFile",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-cdn-file.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import GetCdnFile",
+    "description": "Download a CDN file.",
+    "layer": "144",
+    "id": "395F69DA"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "GetCdnFileHashes",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-cdn-file-hashes.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import GetCdnFileHashes",
+    "description": "Get SHA256 hashes for verifying downloaded CDN files.",
+    "layer": "144",
+    "id": "91DC3F31"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "GetFile",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-file.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import GetFile",
+    "description": "Returns content of a whole file or its part.",
+    "layer": "144",
+    "id": "BE5335BE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "GetFileHashes",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-file-hashes.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import GetFileHashes",
+    "description": "Get SHA256 hashes for verifying downloaded files.",
+    "layer": "144",
+    "id": "9156982A"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "GetWebFile",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-web-file.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import GetWebFile",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "24E6818D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "ReuploadCdnFile",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/reupload-cdn-file.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import ReuploadCdnFile",
+    "description": "Request a reupload of a certain file to a CDN DC.",
+    "layer": "144",
+    "id": "9B2754A8"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "SaveBigFilePart",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/save-big-file-part.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import SaveBigFilePart",
+    "description": "Saves a part of a large file (over 10 MB in size) to be later passed to one of the methods.",
+    "layer": "144",
+    "id": "DE7B673D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "class_name": "SaveFilePart",
+    "category": "Upload",
+    "docs": "https://docs.pyrogram.org/telegram/functions/upload/save-file-part.html",
+    "import_syntax": "from pyrogram.raw.functions.upload import SaveFilePart",
+    "description": "Saves a part of file for further sending to one of the methods.",
+    "layer": "144",
+    "id": "B304A621"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.users.",
+    "class_name": "GetFullUser",
+    "category": "Users",
+    "docs": "https://docs.pyrogram.org/telegram/functions/users/get-full-user.html",
+    "import_syntax": "from pyrogram.raw.functions.users import GetFullUser",
+    "description": "Returns extended user info by ID.",
+    "layer": "144",
+    "id": "B60F5918"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.users.",
+    "class_name": "GetUsers",
+    "category": "Users",
+    "docs": "https://docs.pyrogram.org/telegram/functions/users/get-users.html",
+    "import_syntax": "from pyrogram.raw.functions.users import GetUsers",
+    "description": "Returns basic user info according to their identifiers.",
+    "layer": "144",
+    "id": "D91A548"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.users.",
+    "class_name": "SetSecureValueErrors",
+    "category": "Users",
+    "docs": "https://docs.pyrogram.org/telegram/functions/users/set-secure-value-errors.html",
+    "import_syntax": "from pyrogram.raw.functions.users import SetSecureValueErrors",
+    "description": "Notify the user that the sent passport data contains some errors The user will not be able to re-submit their Passport data to you until the errors are fixed (the contents of the field for which you returned the error must change).",
+    "layer": "144",
+    "id": "90C894B5"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "DestroyAuthKey",
+    "category": "DestroyAuthKey",
+    "docs": "https://docs.pyrogram.org/telegram/functions/destroy-auth-key.html",
+    "import_syntax": "from pyrogram.raw.functions import DestroyAuthKey",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "D1435160"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "DestroySession",
+    "category": "DestroySession",
+    "docs": "https://docs.pyrogram.org/telegram/functions/destroy-session.html",
+    "import_syntax": "from pyrogram.raw.functions import DestroySession",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "E7512126"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "GetFutureSalts",
+    "category": "GetFutureSalts",
+    "docs": "https://docs.pyrogram.org/telegram/functions/get-future-salts.html",
+    "import_syntax": "from pyrogram.raw.functions import GetFutureSalts",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "B921BD04"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InitConnection",
+    "category": "InitConnection",
+    "docs": "https://docs.pyrogram.org/telegram/functions/init-connection.html",
+    "import_syntax": "from pyrogram.raw.functions import InitConnection",
+    "description": "Initialize connection.",
+    "layer": "144",
+    "id": "C1CD5EA9"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeAfterMsg",
+    "category": "InvokeAfterMsg",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-after-msg.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeAfterMsg",
+    "description": "Invokes a query after successful completion of one of the previous queries.",
+    "layer": "144",
+    "id": "CB9F372D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeAfterMsgs",
+    "category": "InvokeAfterMsgs",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-after-msgs.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeAfterMsgs",
+    "description": "Invokes a query after a successful completion of previous queries.",
+    "layer": "144",
+    "id": "3DC4B4F0"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeWithLayer",
+    "category": "InvokeWithLayer",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-layer.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeWithLayer",
+    "description": "Invoke the specified query using the specified API layer.",
+    "layer": "144",
+    "id": "DA9B0D0D"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeWithMessagesRange",
+    "category": "InvokeWithMessagesRange",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-messages-range.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeWithMessagesRange",
+    "description": "Invoke with the given message range.",
+    "layer": "144",
+    "id": "365275F2"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeWithTakeout",
+    "category": "InvokeWithTakeout",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-takeout.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeWithTakeout",
+    "description": "Invoke a method within a takeout session.",
+    "layer": "144",
+    "id": "ACA9FD2E"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "InvokeWithoutUpdates",
+    "category": "InvokeWithoutUpdates",
+    "docs": "https://docs.pyrogram.org/telegram/functions/invoke-without-updates.html",
+    "import_syntax": "from pyrogram.raw.functions import InvokeWithoutUpdates",
+    "description": "Invoke a request without subscribing the used connection for updates (this is enabled by default for file queries).",
+    "layer": "144",
+    "id": "BF9459B7"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "Ping",
+    "category": "Ping",
+    "docs": "https://docs.pyrogram.org/telegram/functions/ping.html",
+    "import_syntax": "from pyrogram.raw.functions import Ping",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "7ABE77EC"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "PingDelayDisconnect",
+    "category": "PingDelayDisconnect",
+    "docs": "https://docs.pyrogram.org/telegram/functions/ping-delay-disconnect.html",
+    "import_syntax": "from pyrogram.raw.functions import PingDelayDisconnect",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "F3427B8C"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "ReqDHParams",
+    "category": "ReqDHParams",
+    "docs": "https://docs.pyrogram.org/telegram/functions/req-dh-params.html",
+    "import_syntax": "from pyrogram.raw.functions import ReqDHParams",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "D712E4BE"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "ReqPq",
+    "category": "ReqPq",
+    "docs": "https://docs.pyrogram.org/telegram/functions/req-pq.html",
+    "import_syntax": "from pyrogram.raw.functions import ReqPq",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "60469778"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "ReqPqMulti",
+    "category": "ReqPqMulti",
+    "docs": "https://docs.pyrogram.org/telegram/functions/req-pq-multi.html",
+    "import_syntax": "from pyrogram.raw.functions import ReqPqMulti",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "BE7E8EF1"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "RpcDropAnswer",
+    "category": "RpcDropAnswer",
+    "docs": "https://docs.pyrogram.org/telegram/functions/rpc-drop-answer.html",
+    "import_syntax": "from pyrogram.raw.functions import RpcDropAnswer",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "58E4A740"
+  },
+  {
+    "pre_class_name": "pyrogram.raw.functions.",
+    "class_name": "SetClientDHParams",
+    "category": "SetClientDHParams",
+    "docs": "https://docs.pyrogram.org/telegram/functions/set-client-dh-params.html",
+    "import_syntax": "from pyrogram.raw.functions import SetClientDHParams",
+    "description": "Telegram API function.",
+    "layer": "144",
+    "id": "F5045F1F"
+  }
+]

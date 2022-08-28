@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "start",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/start.html#pyrogram.Client.start",
+    "description": "Start the client."
+  },
+  {
+    "name": "stop",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/stop.html#pyrogram.Client.stop",
+    "description": "Stop the Client."
+  },
+  {
+    "name": "run",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/run.html#pyrogram.Client.run",
+    "description": "Start the client, idle the main script and finally stop the client."
+  },
+  {
+    "name": "restart",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/restart.html#pyrogram.Client.restart",
+    "description": "Restart the Client."
+  },
+  {
+    "name": "add_handler",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/add_handler.html#pyrogram.Client.add_handler",
+    "description": "Register an update handler."
+  },
+  {
+    "name": "remove_handler",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/remove_handler.html#pyrogram.Client.remove_handler",
+    "description": "Remove a previously-registered update handler."
+  },
+  {
+    "name": "stop_transmission",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/stop_transmission.html#pyrogram.Client.stop_transmission",
+    "description": "Stop downloading or uploading a file."
+  },
+  {
+    "name": "export_session_string",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/export_session_string.html#pyrogram.Client.export_session_string",
+    "description": "Export the current authorized session as a serialized string."
+  },
+  {
+    "name": "set_parse_mode",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/set_parse_mode.html#pyrogram.Client.set_parse_mode",
+    "description": "Set the parse mode to be used globally by the client."
+  },
+  {
+    "name": "idle",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/idle.html#pyrogram.idle",
+    "description": "Block the main script execution until a signal is received."
+  },
+  {
+    "name": "compose",
+    "category": "utilities",
+    "docs": "https://docs.pyrogram.org/api/methods/compose.html#pyrogram.compose",
+    "description": "Run multiple clients at once."
+  },
+  {
+    "name": "send_message",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_message.html#pyrogram.Client.send_message",
+    "description": "Send text messages."
+  },
+  {
+    "name": "forward_messages",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/forward_messages.html#pyrogram.Client.forward_messages",
+    "description": "Forward messages of any kind."
+  },
+  {
+    "name": "copy_message",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/copy_message.html#pyrogram.Client.copy_message",
+    "description": "Copy messages of any kind."
+  },
+  {
+    "name": "copy_media_group",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/copy_media_group.html#pyrogram.Client.copy_media_group",
+    "description": "Copy a media group by providing one of the message ids."
+  },
+  {
+    "name": "send_photo",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_photo.html#pyrogram.Client.send_photo",
+    "description": "Send photos."
+  },
+  {
+    "name": "send_audio",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_audio.html#pyrogram.Client.send_audio",
+    "description": "Send audio files."
+  },
+  {
+    "name": "send_document",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_document.html#pyrogram.Client.send_document",
+    "description": "Send generic files."
+  },
+  {
+    "name": "send_sticker",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_sticker.html#pyrogram.Client.send_sticker",
+    "description": "Send static .webp or animated .tgs stickers."
+  },
+  {
+    "name": "send_video",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_video.html#pyrogram.Client.send_video",
+    "description": "Send video files."
+  },
+  {
+    "name": "send_animation",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_animation.html#pyrogram.Client.send_animation",
+    "description": "Send animation files (animation or H.264/MPEG-4 AVC video without sound)."
+  },
+  {
+    "name": "send_voice",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_voice.html#pyrogram.Client.send_voice",
+    "description": "Send audio files."
+  },
+  {
+    "name": "send_video_note",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_video_note.html#pyrogram.Client.send_video_note",
+    "description": "Send video messages."
+  },
+  {
+    "name": "send_media_group",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_media_group.html#pyrogram.Client.send_media_group",
+    "description": "Send a group of photos or videos as an album."
+  },
+  {
+    "name": "send_location",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_location.html#pyrogram.Client.send_location",
+    "description": "Send points on the map."
+  },
+  {
+    "name": "send_venue",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_venue.html#pyrogram.Client.send_venue",
+    "description": "Send information about a venue."
+  },
+  {
+    "name": "send_contact",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_contact.html#pyrogram.Client.send_contact",
+    "description": "Send phone contacts."
+  },
+  {
+    "name": "send_cached_media",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_cached_media.html#pyrogram.Client.send_cached_media",
+    "description": "Send any media stored on the Telegram servers using a file_id."
+  },
+  {
+    "name": "send_reaction",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_reaction.html#pyrogram.Client.send_reaction",
+    "description": "Send a reaction to a message."
+  },
+  {
+    "name": "edit_message_text",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_message_text.html#pyrogram.Client.edit_message_text",
+    "description": "Edit the text of messages."
+  },
+  {
+    "name": "edit_message_caption",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_message_caption.html#pyrogram.Client.edit_message_caption",
+    "description": "Edit the caption of media messages."
+  },
+  {
+    "name": "edit_message_media",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_message_media.html#pyrogram.Client.edit_message_media",
+    "description": "Edit animation, audio, document, photo or video messages."
+  },
+  {
+    "name": "edit_message_reply_markup",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_message_reply_markup.html#pyrogram.Client.edit_message_reply_markup",
+    "description": "Edit only the reply markup of messages sent by the bot."
+  },
+  {
+    "name": "edit_inline_text",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_inline_text.html#pyrogram.Client.edit_inline_text",
+    "description": "Edit the text of inline messages."
+  },
+  {
+    "name": "edit_inline_caption",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_inline_caption.html#pyrogram.Client.edit_inline_caption",
+    "description": "Edit the caption of inline media messages."
+  },
+  {
+    "name": "edit_inline_media",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_inline_media.html#pyrogram.Client.edit_inline_media",
+    "description": "Edit inline animation, audio, document, photo or video messages."
+  },
+  {
+    "name": "edit_inline_reply_markup",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_inline_reply_markup.html#pyrogram.Client.edit_inline_reply_markup",
+    "description": "Edit only the reply markup of inline messages sent via the bot (for inline bots)."
+  },
+  {
+    "name": "send_chat_action",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_chat_action.html#pyrogram.Client.send_chat_action",
+    "description": "Tell the other party that something is happening on your side."
+  },
+  {
+    "name": "delete_messages",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_messages.html#pyrogram.Client.delete_messages",
+    "description": "Delete messages, including service messages."
+  },
+  {
+    "name": "get_messages",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_messages.html#pyrogram.Client.get_messages",
+    "description": "Get one or more messages from a chat by using message identifiers."
+  },
+  {
+    "name": "get_media_group",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_media_group.html#pyrogram.Client.get_media_group",
+    "description": "Get the media group a message belongs to."
+  },
+  {
+    "name": "get_chat_history",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_history.html#pyrogram.Client.get_chat_history",
+    "description": "Get messages from a chat history."
+  },
+  {
+    "name": "get_chat_history_count",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_history_count.html#pyrogram.Client.get_chat_history_count",
+    "description": "Get the total count of messages in a chat."
+  },
+  {
+    "name": "read_chat_history",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/read_chat_history.html#pyrogram.Client.read_chat_history",
+    "description": "Mark a chat's message history as read."
+  },
+  {
+    "name": "send_poll",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_poll.html#pyrogram.Client.send_poll",
+    "description": "Send a new poll."
+  },
+  {
+    "name": "vote_poll",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/vote_poll.html#pyrogram.Client.vote_poll",
+    "description": "Vote a poll."
+  },
+  {
+    "name": "stop_poll",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/stop_poll.html#pyrogram.Client.stop_poll",
+    "description": "Stop a poll which was sent by you."
+  },
+  {
+    "name": "retract_vote",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/retract_vote.html#pyrogram.Client.retract_vote",
+    "description": "Retract your vote in a poll."
+  },
+  {
+    "name": "send_dice",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/send_dice.html#pyrogram.Client.send_dice",
+    "description": "Send a dice with a random value from 1 to 6."
+  },
+  {
+    "name": "search_messages",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/search_messages.html#pyrogram.Client.search_messages",
+    "description": "Search for text and media messages inside a specific chat."
+  },
+  {
+    "name": "search_messages_count",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/search_messages_count.html#pyrogram.Client.search_messages_count",
+    "description": "Get the count of messages resulting from a search inside a chat."
+  },
+  {
+    "name": "search_global",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/search_global.html#pyrogram.Client.search_global",
+    "description": "Search messages globally from all of your chats."
+  },
+  {
+    "name": "search_global_count",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/search_global_count.html#pyrogram.Client.search_global_count",
+    "description": "Get the count of messages resulting from a global search."
+  },
+  {
+    "name": "download_media",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/download_media.html#pyrogram.Client.download_media",
+    "description": "Download the media from a message."
+  },
+  {
+    "name": "stream_media",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/stream_media.html#pyrogram.Client.stream_media",
+    "description": "Stream the media from a message chunk by chunk."
+  },
+  {
+    "name": "get_discussion_message",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_discussion_message.html#pyrogram.Client.get_discussion_message",
+    "description": "Get the first discussion message of a channel post or a discussion thread in a group."
+  },
+  {
+    "name": "get_discussion_replies",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_discussion_replies.html#pyrogram.Client.get_discussion_replies",
+    "description": "Get the message replies of a discussion thread."
+  },
+  {
+    "name": "get_discussion_replies_count",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_discussion_replies_count.html#pyrogram.Client.get_discussion_replies_count",
+    "description": "Get the total count of replies in a discussion thread."
+  },
+  {
+    "name": "get_custom_emoji_stickers",
+    "category": "messages",
+    "docs": "https://docs.pyrogram.org/api/methods/get_custom_emoji_stickers.html#pyrogram.Client.get_custom_emoji_stickers",
+    "description": "Get information about custom emoji stickers by their identifiers."
+  },
+  {
+    "name": "join_chat",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/join_chat.html#pyrogram.Client.join_chat",
+    "description": "Join a group chat or channel."
+  },
+  {
+    "name": "leave_chat",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/leave_chat.html#pyrogram.Client.leave_chat",
+    "description": "Leave a group chat or channel."
+  },
+  {
+    "name": "ban_chat_member",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/ban_chat_member.html#pyrogram.Client.ban_chat_member",
+    "description": "Ban a user from a group, a supergroup or a channel."
+  },
+  {
+    "name": "unban_chat_member",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/unban_chat_member.html#pyrogram.Client.unban_chat_member",
+    "description": "Unban a previously banned user in a supergroup or channel."
+  },
+  {
+    "name": "restrict_chat_member",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/restrict_chat_member.html#pyrogram.Client.restrict_chat_member",
+    "description": "Restrict a user in a supergroup."
+  },
+  {
+    "name": "promote_chat_member",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/promote_chat_member.html#pyrogram.Client.promote_chat_member",
+    "description": "Promote or demote a user in a supergroup or a channel."
+  },
+  {
+    "name": "set_administrator_title",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_administrator_title.html#pyrogram.Client.set_administrator_title",
+    "description": "Set a custom title (rank) to an administrator of a supergroup."
+  },
+  {
+    "name": "set_chat_photo",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_photo.html#pyrogram.Client.set_chat_photo",
+    "description": "Set a new chat photo or video (H.264/MPEG-4 AVC video, max 5 seconds)."
+  },
+  {
+    "name": "delete_chat_photo",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_chat_photo.html#pyrogram.Client.delete_chat_photo",
+    "description": "Delete a chat photo."
+  },
+  {
+    "name": "set_chat_title",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_title.html#pyrogram.Client.set_chat_title",
+    "description": "Change the title of a chat."
+  },
+  {
+    "name": "set_chat_description",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_description.html#pyrogram.Client.set_chat_description",
+    "description": "Change the description of a supergroup or a channel."
+  },
+  {
+    "name": "set_chat_permissions",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_permissions.html#pyrogram.Client.set_chat_permissions",
+    "description": "Set default chat permissions for all members."
+  },
+  {
+    "name": "pin_chat_message",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/pin_chat_message.html#pyrogram.Client.pin_chat_message",
+    "description": "Pin a message in a group, channel or your own chat."
+  },
+  {
+    "name": "unpin_chat_message",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/unpin_chat_message.html#pyrogram.Client.unpin_chat_message",
+    "description": "Unpin a message in a group, channel or your own chat."
+  },
+  {
+    "name": "unpin_all_chat_messages",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/unpin_all_chat_messages.html#pyrogram.Client.unpin_all_chat_messages",
+    "description": "Use this method to clear the list of pinned messages in a chat."
+  },
+  {
+    "name": "get_chat",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat.html#pyrogram.Client.get_chat",
+    "description": "Get up to date information about a chat."
+  },
+  {
+    "name": "get_chat_member",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_member.html#pyrogram.Client.get_chat_member",
+    "description": "Get information about one member of a chat."
+  },
+  {
+    "name": "get_chat_members",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_members.html#pyrogram.Client.get_chat_members",
+    "description": "Get the members list of a chat."
+  },
+  {
+    "name": "get_chat_members_count",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_members_count.html#pyrogram.Client.get_chat_members_count",
+    "description": "Get the number of members in a chat."
+  },
+  {
+    "name": "get_dialogs",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_dialogs.html#pyrogram.Client.get_dialogs",
+    "description": "Get a user's dialogs sequentially."
+  },
+  {
+    "name": "get_dialogs_count",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_dialogs_count.html#pyrogram.Client.get_dialogs_count",
+    "description": "Get the total count of your dialogs."
+  },
+  {
+    "name": "set_chat_username",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_username.html#pyrogram.Client.set_chat_username",
+    "description": "Set a channel or a supergroup username."
+  },
+  {
+    "name": "get_nearby_chats",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_nearby_chats.html#pyrogram.Client.get_nearby_chats",
+    "description": "Get nearby chats."
+  },
+  {
+    "name": "archive_chats",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/archive_chats.html#pyrogram.Client.archive_chats",
+    "description": "Archive one or more chats."
+  },
+  {
+    "name": "unarchive_chats",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/unarchive_chats.html#pyrogram.Client.unarchive_chats",
+    "description": "Unarchive one or more chats."
+  },
+  {
+    "name": "add_chat_members",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/add_chat_members.html#pyrogram.Client.add_chat_members",
+    "description": "Add new chat members to a group, supergroup or channel"
+  },
+  {
+    "name": "create_channel",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/create_channel.html#pyrogram.Client.create_channel",
+    "description": "Create a new broadcast channel."
+  },
+  {
+    "name": "create_group",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/create_group.html#pyrogram.Client.create_group",
+    "description": "Create a new basic group."
+  },
+  {
+    "name": "create_supergroup",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/create_supergroup.html#pyrogram.Client.create_supergroup",
+    "description": "Create a new supergroup."
+  },
+  {
+    "name": "delete_channel",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_channel.html#pyrogram.Client.delete_channel",
+    "description": "Delete a channel."
+  },
+  {
+    "name": "delete_supergroup",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_supergroup.html#pyrogram.Client.delete_supergroup",
+    "description": "Delete a supergroup."
+  },
+  {
+    "name": "delete_user_history",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_user_history.html#pyrogram.Client.delete_user_history",
+    "description": "Delete all messages sent by a certain user in a supergroup."
+  },
+  {
+    "name": "set_slow_mode",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_slow_mode.html#pyrogram.Client.set_slow_mode",
+    "description": "Set the slow mode interval for a chat."
+  },
+  {
+    "name": "mark_chat_unread",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/mark_chat_unread.html#pyrogram.Client.mark_chat_unread",
+    "description": "Mark a chat as unread."
+  },
+  {
+    "name": "get_chat_event_log",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_event_log.html#pyrogram.Client.get_chat_event_log",
+    "description": "Get the actions taken by chat members and administrators in the last 48h."
+  },
+  {
+    "name": "get_chat_online_count",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_online_count.html#pyrogram.Client.get_chat_online_count",
+    "description": "Get the number of members that are currently online in a chat."
+  },
+  {
+    "name": "get_send_as_chats",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/get_send_as_chats.html#pyrogram.Client.get_send_as_chats",
+    "description": "Get the list of \"send_as\" chats available."
+  },
+  {
+    "name": "set_send_as_chat",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_send_as_chat.html#pyrogram.Client.set_send_as_chat",
+    "description": "Set the default \"send_as\" chat for a chat."
+  },
+  {
+    "name": "set_chat_protected_content",
+    "category": "chats",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_protected_content.html#pyrogram.Client.set_chat_protected_content",
+    "description": "Set the chat protected content setting."
+  },
+  {
+    "name": "get_me",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/get_me.html#pyrogram.Client.get_me",
+    "description": "Get your own user identity."
+  },
+  {
+    "name": "get_users",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/get_users.html#pyrogram.Client.get_users",
+    "description": "Get information about a user."
+  },
+  {
+    "name": "get_chat_photos",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_photos.html#pyrogram.Client.get_chat_photos",
+    "description": "Get a chat or a user profile photos sequentially."
+  },
+  {
+    "name": "get_chat_photos_count",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_photos_count.html#pyrogram.Client.get_chat_photos_count",
+    "description": "Get the total count of photos for a chat."
+  },
+  {
+    "name": "set_profile_photo",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/set_profile_photo.html#pyrogram.Client.set_profile_photo",
+    "description": "Set a new profile photo or video (H.264/MPEG-4 AVC video, max 5 seconds)."
+  },
+  {
+    "name": "delete_profile_photos",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_profile_photos.html#pyrogram.Client.delete_profile_photos",
+    "description": "Delete your own profile photos."
+  },
+  {
+    "name": "set_username",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/set_username.html#pyrogram.Client.set_username",
+    "description": "Set your own username."
+  },
+  {
+    "name": "update_profile",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/update_profile.html#pyrogram.Client.update_profile",
+    "description": "Update your profile details such as first name, last name and bio."
+  },
+  {
+    "name": "block_user",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/block_user.html#pyrogram.Client.block_user",
+    "description": "Block a user."
+  },
+  {
+    "name": "unblock_user",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/unblock_user.html#pyrogram.Client.unblock_user",
+    "description": "Unblock a user."
+  },
+  {
+    "name": "get_common_chats",
+    "category": "users",
+    "docs": "https://docs.pyrogram.org/api/methods/get_common_chats.html#pyrogram.Client.get_common_chats",
+    "description": "Get the common chats you have with a user."
+  },
+  {
+    "name": "get_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_invite_link.html#pyrogram.Client.get_chat_invite_link",
+    "description": "Get detailed information about a chat invite link."
+  },
+  {
+    "name": "export_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/export_chat_invite_link.html#pyrogram.Client.export_chat_invite_link",
+    "description": "Generate a new primary invite link for a chat; any previously generated primary link is revoked."
+  },
+  {
+    "name": "create_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/create_chat_invite_link.html#pyrogram.Client.create_chat_invite_link",
+    "description": "Create an additional invite link for a chat."
+  },
+  {
+    "name": "edit_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/edit_chat_invite_link.html#pyrogram.Client.edit_chat_invite_link",
+    "description": "Edit a non-primary invite link."
+  },
+  {
+    "name": "revoke_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/revoke_chat_invite_link.html#pyrogram.Client.revoke_chat_invite_link",
+    "description": "Revoke a previously created invite link."
+  },
+  {
+    "name": "delete_chat_invite_link",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_chat_invite_link.html#pyrogram.Client.delete_chat_invite_link",
+    "description": "Delete an already revoked invite link."
+  },
+  {
+    "name": "get_chat_invite_link_joiners",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_invite_link_joiners.html#pyrogram.Client.get_chat_invite_link_joiners",
+    "description": "Get the members who joined the chat with the invite link."
+  },
+  {
+    "name": "get_chat_invite_link_joiners_count",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_invite_link_joiners_count.html#pyrogram.Client.get_chat_invite_link_joiners_count",
+    "description": "Get the count of the members who joined the chat with the invite link."
+  },
+  {
+    "name": "get_chat_admin_invite_links",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_admin_invite_links.html#pyrogram.Client.get_chat_admin_invite_links",
+    "description": "Get the invite links created by an administrator in a chat."
+  },
+  {
+    "name": "get_chat_admin_invite_links_count",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_admin_invite_links_count.html#pyrogram.Client.get_chat_admin_invite_links_count",
+    "description": "Get the count of the invite links created by an administrator in a chat."
+  },
+  {
+    "name": "get_chat_admins_with_invite_links",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_admins_with_invite_links.html#pyrogram.Client.get_chat_admins_with_invite_links",
+    "description": "Get the list of the administrators that have exported invite links in a chat."
+  },
+  {
+    "name": "get_chat_join_requests",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_join_requests.html#pyrogram.Client.get_chat_join_requests",
+    "description": "Get the pending join requests of a chat."
+  },
+  {
+    "name": "delete_chat_admin_invite_links",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_chat_admin_invite_links.html#pyrogram.Client.delete_chat_admin_invite_links",
+    "description": "Delete all revoked invite links of an administrator."
+  },
+  {
+    "name": "approve_chat_join_request",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/approve_chat_join_request.html#pyrogram.Client.approve_chat_join_request",
+    "description": "Approve a chat join request."
+  },
+  {
+    "name": "approve_all_chat_join_requests",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/approve_all_chat_join_requests.html#pyrogram.Client.approve_all_chat_join_requests",
+    "description": "Approve all pending join requests in a chat."
+  },
+  {
+    "name": "decline_chat_join_request",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/decline_chat_join_request.html#pyrogram.Client.decline_chat_join_request",
+    "description": "Decline a chat join request."
+  },
+  {
+    "name": "decline_all_chat_join_requests",
+    "category": "invite-links",
+    "docs": "https://docs.pyrogram.org/api/methods/decline_all_chat_join_requests.html#pyrogram.Client.decline_all_chat_join_requests",
+    "description": "Decline all pending join requests in a chat."
+  },
+  {
+    "name": "add_contact",
+    "category": "contacts",
+    "docs": "https://docs.pyrogram.org/api/methods/add_contact.html#pyrogram.Client.add_contact",
+    "description": "Add an existing Telegram user as contact, even without a phone number."
+  },
+  {
+    "name": "delete_contacts",
+    "category": "contacts",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_contacts.html#pyrogram.Client.delete_contacts",
+    "description": "Delete contacts from your Telegram address book."
+  },
+  {
+    "name": "import_contacts",
+    "category": "contacts",
+    "docs": "https://docs.pyrogram.org/api/methods/import_contacts.html#pyrogram.Client.import_contacts",
+    "description": "Import contacts to your Telegram address book."
+  },
+  {
+    "name": "get_contacts",
+    "category": "contacts",
+    "docs": "https://docs.pyrogram.org/api/methods/get_contacts.html#pyrogram.Client.get_contacts",
+    "description": "Get contacts from your Telegram address book."
+  },
+  {
+    "name": "get_contacts_count",
+    "category": "contacts",
+    "docs": "https://docs.pyrogram.org/api/methods/get_contacts_count.html#pyrogram.Client.get_contacts_count",
+    "description": "Get the total count of contacts from your Telegram address book."
+  },
+  {
+    "name": "enable_cloud_password",
+    "category": "password",
+    "docs": "https://docs.pyrogram.org/api/methods/enable_cloud_password.html#pyrogram.Client.enable_cloud_password",
+    "description": "Enable the Two-Step Verification security feature (Cloud Password) on your account."
+  },
+  {
+    "name": "change_cloud_password",
+    "category": "password",
+    "docs": "https://docs.pyrogram.org/api/methods/change_cloud_password.html#pyrogram.Client.change_cloud_password",
+    "description": "Change your Two-Step Verification password (Cloud Password) with a new one."
+  },
+  {
+    "name": "remove_cloud_password",
+    "category": "password",
+    "docs": "https://docs.pyrogram.org/api/methods/remove_cloud_password.html#pyrogram.Client.remove_cloud_password",
+    "description": "Turn off the Two-Step Verification security feature (Cloud Password) on your account."
+  },
+  {
+    "name": "get_inline_bot_results",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/get_inline_bot_results.html#pyrogram.Client.get_inline_bot_results",
+    "description": "Get bot results via inline queries."
+  },
+  {
+    "name": "send_inline_bot_result",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/send_inline_bot_result.html#pyrogram.Client.send_inline_bot_result",
+    "description": "Send an inline bot result."
+  },
+  {
+    "name": "answer_callback_query",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/answer_callback_query.html#pyrogram.Client.answer_callback_query",
+    "description": "Send answers to callback queries sent from inline keyboards."
+  },
+  {
+    "name": "answer_inline_query",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/answer_inline_query.html#pyrogram.Client.answer_inline_query",
+    "description": "Send answers to an inline query."
+  },
+  {
+    "name": "request_callback_answer",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/request_callback_answer.html#pyrogram.Client.request_callback_answer",
+    "description": "Request a callback answer from bots."
+  },
+  {
+    "name": "send_game",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/send_game.html#pyrogram.Client.send_game",
+    "description": "Send a game."
+  },
+  {
+    "name": "set_game_score",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/set_game_score.html#pyrogram.Client.set_game_score",
+    "description": "Set the score of the specified user in a game."
+  },
+  {
+    "name": "get_game_high_scores",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/get_game_high_scores.html#pyrogram.Client.get_game_high_scores",
+    "description": "Get data for high score tables."
+  },
+  {
+    "name": "set_bot_commands",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/set_bot_commands.html#pyrogram.Client.set_bot_commands",
+    "description": "Set the list of the bot's commands."
+  },
+  {
+    "name": "get_bot_commands",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/get_bot_commands.html#pyrogram.Client.get_bot_commands",
+    "description": "Get the current list of the bot's commands for the given scope and user language."
+  },
+  {
+    "name": "delete_bot_commands",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/delete_bot_commands.html#pyrogram.Client.delete_bot_commands",
+    "description": "Delete the list of the bot's commands for the given scope and user language."
+  },
+  {
+    "name": "set_bot_default_privileges",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/set_bot_default_privileges.html#pyrogram.Client.set_bot_default_privileges",
+    "description": "Change the default privileges requested by the bot when it's added as an administrator to groups or channels."
+  },
+  {
+    "name": "get_bot_default_privileges",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/get_bot_default_privileges.html#pyrogram.Client.get_bot_default_privileges",
+    "description": "Get the current default privileges of the bot."
+  },
+  {
+    "name": "set_chat_menu_button",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/set_chat_menu_button.html#pyrogram.Client.set_chat_menu_button",
+    "description": "Change the bot's menu button in a private chat, or the default menu button."
+  },
+  {
+    "name": "get_chat_menu_button",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/get_chat_menu_button.html#pyrogram.Client.get_chat_menu_button",
+    "description": "Get the current value of the bot's menu button in a private chat, or the default menu button."
+  },
+  {
+    "name": "answer_web_app_query",
+    "category": "bots",
+    "docs": "https://docs.pyrogram.org/api/methods/answer_web_app_query.html#pyrogram.Client.answer_web_app_query",
+    "description": "Set the result of an interaction with a Web App and send a corresponding message on behalf of the user to the chat from which the query originated."
+  },
+  {
+    "name": "connect",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/connect.html#pyrogram.Client.connect",
+    "description": "Connect the client to Telegram servers."
+  },
+  {
+    "name": "disconnect",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/disconnect.html#pyrogram.Client.disconnect",
+    "description": "Disconnect the client from Telegram servers."
+  },
+  {
+    "name": "initialize",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/initialize.html#pyrogram.Client.initialize",
+    "description": "Initialize the client by starting up workers."
+  },
+  {
+    "name": "terminate",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/terminate.html#pyrogram.Client.terminate",
+    "description": "Terminate the client by shutting down workers."
+  },
+  {
+    "name": "send_code",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/send_code.html#pyrogram.Client.send_code",
+    "description": "Send the confirmation code to the given phone number."
+  },
+  {
+    "name": "resend_code",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/resend_code.html#pyrogram.Client.resend_code",
+    "description": "Re-send the confirmation code using a different type."
+  },
+  {
+    "name": "sign_in",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/sign_in.html#pyrogram.Client.sign_in",
+    "description": "Authorize a user in Telegram with a valid confirmation code."
+  },
+  {
+    "name": "sign_in_bot",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/sign_in_bot.html#pyrogram.Client.sign_in_bot",
+    "description": "Authorize a bot using its bot token generated by BotFather."
+  },
+  {
+    "name": "sign_up",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/sign_up.html#pyrogram.Client.sign_up",
+    "description": "Register a new user in Telegram."
+  },
+  {
+    "name": "get_password_hint",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/get_password_hint.html#pyrogram.Client.get_password_hint",
+    "description": "Get your Two-Step Verification password hint."
+  },
+  {
+    "name": "check_password",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/check_password.html#pyrogram.Client.check_password",
+    "description": "Check your Two-Step Verification password and log in."
+  },
+  {
+    "name": "send_recovery_code",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/send_recovery_code.html#pyrogram.Client.send_recovery_code",
+    "description": "Send a code to your email to recover your password."
+  },
+  {
+    "name": "recover_password",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/recover_password.html#pyrogram.Client.recover_password",
+    "description": "Recover your password with a recovery code and log in."
+  },
+  {
+    "name": "accept_terms_of_service",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/accept_terms_of_service.html#pyrogram.Client.accept_terms_of_service",
+    "description": "Accept the given terms of service."
+  },
+  {
+    "name": "log_out",
+    "category": "authorization",
+    "docs": "https://docs.pyrogram.org/api/methods/log_out.html#pyrogram.Client.log_out",
+    "description": "Log out from Telegram and delete the *.session file."
+  },
+  {
+    "name": "invoke",
+    "category": "advanced",
+    "docs": "https://docs.pyrogram.org/api/methods/invoke.html#pyrogram.Client.invoke",
+    "description": "Invoke raw Telegram functions."
+  },
+  {
+    "name": "resolve_peer",
+    "category": "advanced",
+    "docs": "https://docs.pyrogram.org/api/methods/resolve_peer.html#pyrogram.Client.resolve_peer",
+    "description": "Get the InputPeer of a known peer id."
+  },
+  {
+    "name": "save_file",
+    "category": "advanced",
+    "docs": "https://docs.pyrogram.org/api/methods/save_file.html#pyrogram.Client.save_file",
+    "description": "Upload a file onto Telegram servers, without actually sending the message to anyone."
+  }
+]
