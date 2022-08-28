@@ -1,0 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css");
+
+/* Checbox */
+input[type=checkbox] {
+    transform: scale(0.5);
+}

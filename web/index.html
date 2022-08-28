@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js"></script>
     <title>Better Pyro Docs</title>
@@ -18,7 +18,7 @@
         <div class="form-control">
             <span class="text-center mb-5 lg:text-xl"><b>Better Pyro Docs</b></span>
             <div class="input-group">
-                <input type="text" placeholder="Search…" class="input input-bordered" />
+                <input type="text" placeholder="Search…" class="input input-bordered" id="search_bar" />
                 <button class="btn btn-square" onclick="Get_Results()">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -28,7 +28,23 @@
                 </button>
             </div>
         </div>
+
+        <div class="form-control text-xs">
+            <label class="label cursor-pointer">
+                <span class="label-text">Methods</span>
+                <input type="checkbox" class="checkbox checkbox-primary" id="is_methods" />
+            </label>
+        </div>
+        <div class="form-control text-xs">
+            <label class="label cursor-pointer">
+                <span class="label-text">Raw Functions</span>
+                <input type="checkbox" class="checkbox checkbox-primary" id="is_raw_funcs" />
+            </label>
+        </div>
     </form>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 place-items-center" id="results">
+    </div>
 </body>
 
 </html>

@@ -73,12 +73,12 @@ async function prepare_rf_results(rarr: { [key: number]: RawFuncDBSchema }) {
                 input_message_content: {
                     message_text: `
 <b>➭ Method:</b> <a href="${mtd.docs}">${mtd.class_name}</a>
+<b>➭ Category:</b> <a href="https://docs.pyrogram.org/api/methods/#${mtd.category}">${mtd.category}</a>
+<b>➭ Import it:</b> <code>${mtd.import_syntax}</code>
 <b>➭ Layer:</b> <code>${mtd.layer}</code>
 <b>➭ ID:</b> <code>${mtd.id}</code>
-<b>➭ Import it:</b> <code>${mtd.import_syntax}</code>
-<b>➭ Category:</b> <a href="https://docs.pyrogram.org/api/methods/#${mtd.category}">${mtd.category}</a>
+<b>➭ Description:</b> <code>${mtd.description}</code>                 
 <b>➭ Official Docs:</b> <a href="${mtd.docs}">Docs!</a>
-<b>➭ Description:</b> <code>${mtd.description}</code>                    
 `,
                     parse_mode: "HTML",
                     disable_web_page_preview: true,

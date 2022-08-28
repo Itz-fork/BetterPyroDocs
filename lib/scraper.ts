@@ -81,7 +81,7 @@ async function scrape_raw_functions() {
                 // Raw function details
                 let preclassname = rfhtml?.getElementsByClassName(
                     "sig-prename descclassname",
-                )[0].innerText;
+                )[0].innerText?.slice(0, -1);
                 let classname = rfhtml?.getElementsByClassName("sig-name descname")[0]
                     .innerText;
                 raw_func_obj.push({
@@ -89,7 +89,7 @@ async function scrape_raw_functions() {
                     class_name: classname,
                     category: belongs_to,
                     docs: page_url,
-                    import_syntax: `from ${preclassname?.slice(0, -1)} import ${classname}`,
+                    import_syntax: `from ${preclassname} import ${classname}`,
                     description: rfdesc?.getElementsByTagName("p")[0].innerText,
                     layer:
                         rfdesc?.getElementsByClassName("docutils literal notranslate")[0].innerText,
