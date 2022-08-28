@@ -3,6 +3,7 @@ name: Deploy Better Pyro Docs
 on:
   push:
     branches: ["master"]
+    paths: ["web/**"]
 
   workflow_dispatch:
 
