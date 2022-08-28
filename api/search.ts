@@ -18,6 +18,7 @@ Searchrouter.get("/", async (ctx) => {
 Searchrouter.get("/search/methods/:q", async (ctx) => {
     const query = ctx.params.q;
     ctx.response.body = await search_api_methods(query);
+    ctx.response.headers.set('Access-Control-Allow-Origin', '*')
     return ctx.response.body;
 });
 
@@ -25,6 +26,7 @@ Searchrouter.get("/search/methods/:q", async (ctx) => {
 Searchrouter.get("/search/raw/:q", async (ctx) => {
     const query = ctx.params.q;
     ctx.response.body = await search_raw_functions(query);
+    ctx.response.headers.set('Access-Control-Allow-Origin', '*')
     return ctx.response.body;
 });
 
