@@ -1,5 +1,3 @@
-# STILL UNDER DEVELOPMENT
-
 # Better Pyro Docs
 **Simple & Easy-to-use** search engine to search for pyrogram api methods and raw functions
 
