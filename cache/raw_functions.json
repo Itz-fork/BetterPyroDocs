@@ -1,6 +1,6 @@
 [
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "AcceptAuthorization",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/accept-authorization.html",
@@ -10,7 +10,7 @@
     "id": "F3ED4C73"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "CancelPasswordEmail",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/cancel-password-email.html",
@@ -20,7 +20,7 @@
     "id": "C1CBD5B6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ChangeAuthorizationSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/change-authorization-settings.html",
@@ -30,7 +30,7 @@
     "id": "40F48462"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ChangePhone",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/change-phone.html",
@@ -40,7 +40,7 @@
     "id": "70C32EDB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "CheckUsername",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/check-username.html",
@@ -50,7 +50,7 @@
     "id": "2714D86C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ConfirmPasswordEmail",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/confirm-password-email.html",
@@ -60,7 +60,7 @@
     "id": "8FDF1920"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ConfirmPhone",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/confirm-phone.html",
@@ -70,7 +70,7 @@
     "id": "5F2178C3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "CreateTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/create-theme.html",
@@ -80,7 +80,7 @@
     "id": "652E4400"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "DeclinePasswordReset",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/decline-password-reset.html",
@@ -90,7 +90,7 @@
     "id": "4C9409F6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "DeleteAccount",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/delete-account.html",
@@ -100,7 +100,7 @@
     "id": "A2C0CF74"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "DeleteSecureValue",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/delete-secure-value.html",
@@ -110,7 +110,7 @@
     "id": "B880BC4B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "FinishTakeoutSession",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/finish-takeout-session.html",
@@ -120,7 +120,7 @@
     "id": "1D2652EE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetAccountTTL",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-account-ttl.html",
@@ -130,7 +130,7 @@
     "id": "8FC711D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetAllSecureValues",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-all-secure-values.html",
@@ -140,7 +140,7 @@
     "id": "B288BC7D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetAuthorizationForm",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-authorization-form.html",
@@ -150,7 +150,7 @@
     "id": "A929597A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetAuthorizations",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-authorizations.html",
@@ -160,7 +160,7 @@
     "id": "E320C158"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetAutoDownloadSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-auto-download-settings.html",
@@ -170,7 +170,7 @@
     "id": "56DA0B3F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetChatThemes",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-chat-themes.html",
@@ -180,7 +180,7 @@
     "id": "D638DE89"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetContactSignUpNotification",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-contact-sign-up-notification.html",
@@ -190,7 +190,7 @@
     "id": "9F07C728"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetContentSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-content-settings.html",
@@ -200,7 +200,7 @@
     "id": "8B9B4DAE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetGlobalPrivacySettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-global-privacy-settings.html",
@@ -210,7 +210,7 @@
     "id": "EB2B4CF6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetMultiWallPapers",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-multi-wall-papers.html",
@@ -220,7 +220,7 @@
     "id": "65AD71DC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetNotifyExceptions",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-notify-exceptions.html",
@@ -230,7 +230,7 @@
     "id": "53577479"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetNotifySettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-notify-settings.html",
@@ -240,7 +240,7 @@
     "id": "12B3AD31"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetPassword",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-password.html",
@@ -250,7 +250,7 @@
     "id": "548A30F5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetPasswordSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-password-settings.html",
@@ -260,7 +260,7 @@
     "id": "9CD4EAF9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetPrivacy",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-privacy.html",
@@ -270,7 +270,7 @@
     "id": "DADBC950"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetSavedRingtones",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-saved-ringtones.html",
@@ -280,7 +280,7 @@
     "id": "E1902288"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetSecureValue",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-secure-value.html",
@@ -290,7 +290,7 @@
     "id": "73665BC2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-theme.html",
@@ -300,7 +300,7 @@
     "id": "8D9D742B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetThemes",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-themes.html",
@@ -310,7 +310,7 @@
     "id": "7206E458"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetTmpPassword",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-tmp-password.html",
@@ -320,7 +320,7 @@
     "id": "449E0B51"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetWallPaper",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-wall-paper.html",
@@ -330,7 +330,7 @@
     "id": "FC8DDBEA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetWallPapers",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-wall-papers.html",
@@ -340,7 +340,7 @@
     "id": "7967D36"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "GetWebAuthorizations",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/get-web-authorizations.html",
@@ -350,7 +350,7 @@
     "id": "182E6D6F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "InitTakeoutSession",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/init-takeout-session.html",
@@ -360,7 +360,7 @@
     "id": "8EF3EAB0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "InstallTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/install-theme.html",
@@ -370,7 +370,7 @@
     "id": "C727BB3B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "InstallWallPaper",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/install-wall-paper.html",
@@ -380,7 +380,7 @@
     "id": "FEED5769"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "RegisterDevice",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/register-device.html",
@@ -390,7 +390,7 @@
     "id": "EC86017A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ReportPeer",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/report-peer.html",
@@ -400,7 +400,7 @@
     "id": "C5BA3D86"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ReportProfilePhoto",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/report-profile-photo.html",
@@ -410,7 +410,7 @@
     "id": "FA8CC6F5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResendPasswordEmail",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/resend-password-email.html",
@@ -420,7 +420,7 @@
     "id": "7A7F2A15"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetAuthorization",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-authorization.html",
@@ -430,7 +430,7 @@
     "id": "DF77F3BC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetNotifySettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-notify-settings.html",
@@ -440,7 +440,7 @@
     "id": "DB7E1747"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetPassword",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-password.html",
@@ -450,7 +450,7 @@
     "id": "9308CE1B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetWallPapers",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-wall-papers.html",
@@ -460,7 +460,7 @@
     "id": "BB3B9804"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetWebAuthorization",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-web-authorization.html",
@@ -470,7 +470,7 @@
     "id": "2D01B9EF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "ResetWebAuthorizations",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/reset-web-authorizations.html",
@@ -480,7 +480,7 @@
     "id": "682D2594"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SaveAutoDownloadSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/save-auto-download-settings.html",
@@ -490,7 +490,7 @@
     "id": "76F36233"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SaveRingtone",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/save-ringtone.html",
@@ -500,7 +500,7 @@
     "id": "3DEA5B03"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SaveSecureValue",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/save-secure-value.html",
@@ -510,7 +510,7 @@
     "id": "899FE31D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SaveTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/save-theme.html",
@@ -520,7 +520,7 @@
     "id": "F257106C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SaveWallPaper",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/save-wall-paper.html",
@@ -530,7 +530,7 @@
     "id": "6C5A5B37"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SendChangePhoneCode",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/send-change-phone-code.html",
@@ -540,7 +540,7 @@
     "id": "82574AE5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SendConfirmPhoneCode",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/send-confirm-phone-code.html",
@@ -550,7 +550,7 @@
     "id": "1B3FAA88"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SendVerifyEmailCode",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/send-verify-email-code.html",
@@ -560,7 +560,7 @@
     "id": "7011509F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SendVerifyPhoneCode",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/send-verify-phone-code.html",
@@ -570,7 +570,7 @@
     "id": "A5A356F9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetAccountTTL",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-account-ttl.html",
@@ -580,7 +580,7 @@
     "id": "2442485E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetAuthorizationTTL",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-authorization-ttl.html",
@@ -590,7 +590,7 @@
     "id": "BF899AA0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetContactSignUpNotification",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-contact-sign-up-notification.html",
@@ -600,7 +600,7 @@
     "id": "CFF43F61"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetContentSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-content-settings.html",
@@ -610,7 +610,7 @@
     "id": "B574B16B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetGlobalPrivacySettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-global-privacy-settings.html",
@@ -620,7 +620,7 @@
     "id": "1EDAAAC2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "SetPrivacy",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/set-privacy.html",
@@ -630,7 +630,7 @@
     "id": "C9F81CE8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UnregisterDevice",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/unregister-device.html",
@@ -640,7 +640,7 @@
     "id": "6A0D3206"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateDeviceLocked",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-device-locked.html",
@@ -650,7 +650,7 @@
     "id": "38DF3532"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateNotifySettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-notify-settings.html",
@@ -660,7 +660,7 @@
     "id": "84BE5B93"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdatePasswordSettings",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-password-settings.html",
@@ -670,7 +670,7 @@
     "id": "A59B102F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateProfile",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-profile.html",
@@ -680,7 +680,7 @@
     "id": "78515775"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateStatus",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-status.html",
@@ -690,7 +690,7 @@
     "id": "6628562C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-theme.html",
@@ -700,7 +700,7 @@
     "id": "2BF40CCC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UpdateUsername",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/update-username.html",
@@ -710,7 +710,7 @@
     "id": "3E0BDD7C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UploadRingtone",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-ringtone.html",
@@ -720,7 +720,7 @@
     "id": "831A83A2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UploadTheme",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-theme.html",
@@ -730,7 +730,7 @@
     "id": "1C3DB333"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "UploadWallPaper",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/upload-wall-paper.html",
@@ -740,7 +740,7 @@
     "id": "DD853661"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "VerifyEmail",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/verify-email.html",
@@ -750,7 +750,7 @@
     "id": "ECBA39DB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.account.",
+    "module": "pyrogram.raw.functions.account",
     "class_name": "VerifyPhone",
     "category": "Account",
     "docs": "https://docs.pyrogram.org/telegram/functions/account/verify-phone.html",
@@ -760,7 +760,7 @@
     "id": "4DD3A7F6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "AcceptLoginToken",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/accept-login-token.html",
@@ -770,7 +770,7 @@
     "id": "E894AD4D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "BindTempAuthKey",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/bind-temp-auth-key.html",
@@ -780,7 +780,7 @@
     "id": "CDD42A05"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "CancelCode",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/cancel-code.html",
@@ -790,7 +790,7 @@
     "id": "1F040578"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "CheckPassword",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/check-password.html",
@@ -800,7 +800,7 @@
     "id": "D18B4D16"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "CheckRecoveryPassword",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/check-recovery-password.html",
@@ -810,7 +810,7 @@
     "id": "D36BF79"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "DropTempAuthKeys",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/drop-temp-auth-keys.html",
@@ -820,7 +820,7 @@
     "id": "8E48A188"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ExportAuthorization",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/export-authorization.html",
@@ -830,7 +830,7 @@
     "id": "E5BFFFCD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ExportLoginToken",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/export-login-token.html",
@@ -840,7 +840,7 @@
     "id": "B7E085FE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ImportAuthorization",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-authorization.html",
@@ -850,7 +850,7 @@
     "id": "A57A7DAD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ImportBotAuthorization",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-bot-authorization.html",
@@ -860,7 +860,7 @@
     "id": "67A3FF2C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ImportLoginToken",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/import-login-token.html",
@@ -870,7 +870,7 @@
     "id": "95AC5CE4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "LogOut",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/log-out.html",
@@ -880,7 +880,7 @@
     "id": "3E72BA19"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "RecoverPassword",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/recover-password.html",
@@ -890,7 +890,7 @@
     "id": "37096C70"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "RequestPasswordRecovery",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/request-password-recovery.html",
@@ -900,7 +900,7 @@
     "id": "D897BC66"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ResendCode",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/resend-code.html",
@@ -910,7 +910,7 @@
     "id": "3EF1A9BF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "ResetAuthorizations",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/reset-authorizations.html",
@@ -920,7 +920,7 @@
     "id": "9FAB0D1A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "SendCode",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/send-code.html",
@@ -930,7 +930,7 @@
     "id": "A677244F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "SignIn",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/sign-in.html",
@@ -940,7 +940,7 @@
     "id": "BCD51581"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.auth.",
+    "module": "pyrogram.raw.functions.auth",
     "class_name": "SignUp",
     "category": "Auth",
     "docs": "https://docs.pyrogram.org/telegram/functions/auth/sign-up.html",
@@ -950,7 +950,7 @@
     "id": "80EEE427"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "AnswerWebhookJSONQuery",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/answer-webhook-json-query.html",
@@ -960,7 +960,7 @@
     "id": "E6213F4D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "GetBotCommands",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/get-bot-commands.html",
@@ -970,7 +970,7 @@
     "id": "E34C0DD6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "GetBotMenuButton",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/get-bot-menu-button.html",
@@ -980,7 +980,7 @@
     "id": "9C60EB28"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "ResetBotCommands",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/reset-bot-commands.html",
@@ -990,7 +990,7 @@
     "id": "3D8DE0F9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "SendCustomRequest",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/send-custom-request.html",
@@ -1000,7 +1000,7 @@
     "id": "AA2769ED"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "SetBotBroadcastDefaultAdminRights",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-broadcast-default-admin-rights.html",
@@ -1010,7 +1010,7 @@
     "id": "788464E1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "SetBotCommands",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-commands.html",
@@ -1020,7 +1020,7 @@
     "id": "517165A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "SetBotGroupDefaultAdminRights",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-group-default-admin-rights.html",
@@ -1030,7 +1030,7 @@
     "id": "925EC9EA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.bots.",
+    "module": "pyrogram.raw.functions.bots",
     "class_name": "SetBotMenuButton",
     "category": "Bots",
     "docs": "https://docs.pyrogram.org/telegram/functions/bots/set-bot-menu-button.html",
@@ -1040,7 +1040,7 @@
     "id": "4504D54F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "CheckUsername",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/check-username.html",
@@ -1050,7 +1050,7 @@
     "id": "10E6BD2C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ConvertToGigagroup",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/convert-to-gigagroup.html",
@@ -1060,7 +1060,7 @@
     "id": "B290C69"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "CreateChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/create-channel.html",
@@ -1070,7 +1070,7 @@
     "id": "3D5FB10F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "DeleteChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-channel.html",
@@ -1080,7 +1080,7 @@
     "id": "C0111FE3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "DeleteHistory",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-history.html",
@@ -1090,7 +1090,7 @@
     "id": "9BAA9647"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "DeleteMessages",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-messages.html",
@@ -1100,7 +1100,7 @@
     "id": "84C1FD4E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "DeleteParticipantHistory",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/delete-participant-history.html",
@@ -1110,7 +1110,7 @@
     "id": "367544DB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditAdmin",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-admin.html",
@@ -1120,7 +1120,7 @@
     "id": "D33C8902"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditBanned",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-banned.html",
@@ -1130,7 +1130,7 @@
     "id": "96E6CD81"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditCreator",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-creator.html",
@@ -1140,7 +1140,7 @@
     "id": "8F38CD1F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditLocation",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-location.html",
@@ -1150,7 +1150,7 @@
     "id": "58E63F6D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditPhoto",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-photo.html",
@@ -1160,7 +1160,7 @@
     "id": "F12E57C9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "EditTitle",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/edit-title.html",
@@ -1170,7 +1170,7 @@
     "id": "566DECD0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ExportMessageLink",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/export-message-link.html",
@@ -1180,7 +1180,7 @@
     "id": "E63FADEB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetAdminLog",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-admin-log.html",
@@ -1190,7 +1190,7 @@
     "id": "33DDF480"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetAdminedPublicChannels",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-admined-public-channels.html",
@@ -1200,7 +1200,7 @@
     "id": "F8B036AF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetChannels",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-channels.html",
@@ -1210,7 +1210,7 @@
     "id": "A7F6BBB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetFullChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-full-channel.html",
@@ -1220,7 +1220,7 @@
     "id": "8736A09"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetGroupsForDiscussion",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-groups-for-discussion.html",
@@ -1230,7 +1230,7 @@
     "id": "F5DAD378"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetInactiveChannels",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-inactive-channels.html",
@@ -1240,7 +1240,7 @@
     "id": "11E831EE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetLeftChannels",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-left-channels.html",
@@ -1250,7 +1250,7 @@
     "id": "8341ECC0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetMessages",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-messages.html",
@@ -1260,7 +1260,7 @@
     "id": "AD8C9A23"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetParticipant",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-participant.html",
@@ -1270,7 +1270,7 @@
     "id": "A0AB6CC6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetParticipants",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-participants.html",
@@ -1280,7 +1280,7 @@
     "id": "77CED9D0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetSendAs",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-send-as.html",
@@ -1290,7 +1290,7 @@
     "id": "DC770EE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "GetSponsoredMessages",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/get-sponsored-messages.html",
@@ -1300,7 +1300,7 @@
     "id": "EC210FBF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "InviteToChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/invite-to-channel.html",
@@ -1310,7 +1310,7 @@
     "id": "199F3A6C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "JoinChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/join-channel.html",
@@ -1320,7 +1320,7 @@
     "id": "24B524C5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "LeaveChannel",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/leave-channel.html",
@@ -1330,7 +1330,7 @@
     "id": "F836AA95"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ReadHistory",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/read-history.html",
@@ -1340,7 +1340,7 @@
     "id": "CC104937"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ReadMessageContents",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/read-message-contents.html",
@@ -1350,7 +1350,7 @@
     "id": "EAB5DC38"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ReportSpam",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/report-spam.html",
@@ -1360,7 +1360,7 @@
     "id": "F44A8315"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "SetDiscussionGroup",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/set-discussion-group.html",
@@ -1370,7 +1370,7 @@
     "id": "40582BB2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "SetStickers",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/set-stickers.html",
@@ -1380,7 +1380,7 @@
     "id": "EA8CA4F9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ToggleJoinRequest",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-join-request.html",
@@ -1390,7 +1390,7 @@
     "id": "4C2985B6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ToggleJoinToSend",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-join-to-send.html",
@@ -1400,7 +1400,7 @@
     "id": "E4CB9580"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "TogglePreHistoryHidden",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-pre-history-hidden.html",
@@ -1410,7 +1410,7 @@
     "id": "EABBB94C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ToggleSignatures",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-signatures.html",
@@ -1420,7 +1420,7 @@
     "id": "1F69B606"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ToggleSlowMode",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/toggle-slow-mode.html",
@@ -1430,7 +1430,7 @@
     "id": "EDD49EF0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "UpdateUsername",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/update-username.html",
@@ -1440,7 +1440,7 @@
     "id": "3514B3DE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.channels.",
+    "module": "pyrogram.raw.functions.channels",
     "class_name": "ViewSponsoredMessage",
     "category": "Channels",
     "docs": "https://docs.pyrogram.org/telegram/functions/channels/view-sponsored-message.html",
@@ -1450,7 +1450,7 @@
     "id": "BEAEDB94"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "AcceptContact",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/accept-contact.html",
@@ -1460,7 +1460,7 @@
     "id": "F831A20F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "AddContact",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/add-contact.html",
@@ -1470,7 +1470,7 @@
     "id": "E8F463D0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "Block",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/block.html",
@@ -1480,7 +1480,7 @@
     "id": "68CC1411"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "BlockFromReplies",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/block-from-replies.html",
@@ -1490,7 +1490,7 @@
     "id": "29A8962C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "DeleteByPhones",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/delete-by-phones.html",
@@ -1500,7 +1500,7 @@
     "id": "1013FD9E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "DeleteContacts",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/delete-contacts.html",
@@ -1510,7 +1510,7 @@
     "id": "96A0E00"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetBlocked",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-blocked.html",
@@ -1520,7 +1520,7 @@
     "id": "F57C350F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetContactIDs",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-contact-i-ds.html",
@@ -1530,7 +1530,7 @@
     "id": "7ADC669D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetContacts",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-contacts.html",
@@ -1540,7 +1540,7 @@
     "id": "5DD69E12"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetLocated",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-located.html",
@@ -1550,7 +1550,7 @@
     "id": "D348BC44"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetSaved",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-saved.html",
@@ -1560,7 +1560,7 @@
     "id": "82F1E39F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetStatuses",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-statuses.html",
@@ -1570,7 +1570,7 @@
     "id": "C4A353EE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "GetTopPeers",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/get-top-peers.html",
@@ -1580,7 +1580,7 @@
     "id": "973478B6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ImportContacts",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/import-contacts.html",
@@ -1590,7 +1590,7 @@
     "id": "2C800BE5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ResetSaved",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/reset-saved.html",
@@ -1600,7 +1600,7 @@
     "id": "879537F1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ResetTopPeerRating",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/reset-top-peer-rating.html",
@@ -1610,7 +1610,7 @@
     "id": "1AE373AC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ResolvePhone",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/resolve-phone.html",
@@ -1620,7 +1620,7 @@
     "id": "8AF94344"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ResolveUsername",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/resolve-username.html",
@@ -1630,7 +1630,7 @@
     "id": "F93CCBA3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "Search",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/search.html",
@@ -1640,7 +1640,7 @@
     "id": "11F812D8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "ToggleTopPeers",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/toggle-top-peers.html",
@@ -1650,7 +1650,7 @@
     "id": "8514BDDA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contacts.",
+    "module": "pyrogram.raw.functions.contacts",
     "class_name": "Unblock",
     "category": "Contacts",
     "docs": "https://docs.pyrogram.org/telegram/functions/contacts/unblock.html",
@@ -1660,7 +1660,7 @@
     "id": "BEA65D50"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.contest.",
+    "module": "pyrogram.raw.functions.contest",
     "class_name": "SaveDeveloperInfo",
     "category": "Contest",
     "docs": "https://docs.pyrogram.org/telegram/functions/contest/save-developer-info.html",
@@ -1670,7 +1670,7 @@
     "id": "9A5F6E95"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.folders.",
+    "module": "pyrogram.raw.functions.folders",
     "class_name": "DeleteFolder",
     "category": "Folders",
     "docs": "https://docs.pyrogram.org/telegram/functions/folders/delete-folder.html",
@@ -1680,7 +1680,7 @@
     "id": "1C295881"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.folders.",
+    "module": "pyrogram.raw.functions.folders",
     "class_name": "EditPeerFolders",
     "category": "Folders",
     "docs": "https://docs.pyrogram.org/telegram/functions/folders/edit-peer-folders.html",
@@ -1690,7 +1690,7 @@
     "id": "6847D0AB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "AcceptTermsOfService",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/accept-terms-of-service.html",
@@ -1700,7 +1700,7 @@
     "id": "EE72F79A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "DismissSuggestion",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/dismiss-suggestion.html",
@@ -1710,7 +1710,7 @@
     "id": "F50DBAA1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "EditUserInfo",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/edit-user-info.html",
@@ -1720,7 +1720,7 @@
     "id": "66B91B70"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetAppChangelog",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-changelog.html",
@@ -1730,7 +1730,7 @@
     "id": "9010EF6F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetAppConfig",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-config.html",
@@ -1740,7 +1740,7 @@
     "id": "98914110"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetAppUpdate",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-app-update.html",
@@ -1750,7 +1750,7 @@
     "id": "522D5A7D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetCdnConfig",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-cdn-config.html",
@@ -1760,7 +1760,7 @@
     "id": "52029342"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetConfig",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-config.html",
@@ -1770,7 +1770,7 @@
     "id": "C4F9186B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetCountriesList",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-countries-list.html",
@@ -1780,7 +1780,7 @@
     "id": "735787A8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetDeepLinkInfo",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-deep-link-info.html",
@@ -1790,7 +1790,7 @@
     "id": "3FEDC75F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetInviteText",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-invite-text.html",
@@ -1800,7 +1800,7 @@
     "id": "4D392343"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetNearestDc",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-nearest-dc.html",
@@ -1810,7 +1810,7 @@
     "id": "1FB33026"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetPassportConfig",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-passport-config.html",
@@ -1820,7 +1820,7 @@
     "id": "C661AD08"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetPremiumPromo",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-premium-promo.html",
@@ -1830,7 +1830,7 @@
     "id": "B81B93D4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetPromoData",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-promo-data.html",
@@ -1840,7 +1840,7 @@
     "id": "C0977421"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetRecentMeUrls",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-recent-me-urls.html",
@@ -1850,7 +1850,7 @@
     "id": "3DC0F114"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetSupport",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-support.html",
@@ -1860,7 +1860,7 @@
     "id": "9CDF08CD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetSupportName",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-support-name.html",
@@ -1870,7 +1870,7 @@
     "id": "D360E72C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetTermsOfServiceUpdate",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-terms-of-service-update.html",
@@ -1880,7 +1880,7 @@
     "id": "2CA51FD1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "GetUserInfo",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/get-user-info.html",
@@ -1890,7 +1890,7 @@
     "id": "38A08D3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "HidePromoData",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/hide-promo-data.html",
@@ -1900,7 +1900,7 @@
     "id": "1E251C95"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "SaveAppLog",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/save-app-log.html",
@@ -1910,7 +1910,7 @@
     "id": "6F02F748"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.help.",
+    "module": "pyrogram.raw.functions.help",
     "class_name": "SetBotUpdatesStatus",
     "category": "Help",
     "docs": "https://docs.pyrogram.org/telegram/functions/help/set-bot-updates-status.html",
@@ -1920,7 +1920,7 @@
     "id": "EC22CFCD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "module": "pyrogram.raw.functions.langpack",
     "class_name": "GetDifference",
     "category": "Langpack",
     "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-difference.html",
@@ -1930,7 +1930,7 @@
     "id": "CD984AA5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "module": "pyrogram.raw.functions.langpack",
     "class_name": "GetLangPack",
     "category": "Langpack",
     "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-lang-pack.html",
@@ -1940,7 +1940,7 @@
     "id": "F2F2330A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "module": "pyrogram.raw.functions.langpack",
     "class_name": "GetLanguage",
     "category": "Langpack",
     "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-language.html",
@@ -1950,7 +1950,7 @@
     "id": "6A596502"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "module": "pyrogram.raw.functions.langpack",
     "class_name": "GetLanguages",
     "category": "Langpack",
     "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-languages.html",
@@ -1960,7 +1960,7 @@
     "id": "42C6978F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.langpack.",
+    "module": "pyrogram.raw.functions.langpack",
     "class_name": "GetStrings",
     "category": "Langpack",
     "docs": "https://docs.pyrogram.org/telegram/functions/langpack/get-strings.html",
@@ -1970,7 +1970,7 @@
     "id": "EFEA3803"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "AcceptEncryption",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/accept-encryption.html",
@@ -1980,7 +1980,7 @@
     "id": "3DBC0415"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "AcceptUrlAuth",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/accept-url-auth.html",
@@ -1990,7 +1990,7 @@
     "id": "B12C7125"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "AddChatUser",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/add-chat-user.html",
@@ -2000,7 +2000,7 @@
     "id": "F24753E3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "CheckChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-chat-invite.html",
@@ -2010,7 +2010,7 @@
     "id": "3EADB1BB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "CheckHistoryImport",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-history-import.html",
@@ -2020,7 +2020,7 @@
     "id": "43FE19F3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "CheckHistoryImportPeer",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/check-history-import-peer.html",
@@ -2030,7 +2030,7 @@
     "id": "5DC60F03"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ClearAllDrafts",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/clear-all-drafts.html",
@@ -2040,7 +2040,7 @@
     "id": "7E58EE9C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ClearRecentStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/clear-recent-stickers.html",
@@ -2050,7 +2050,7 @@
     "id": "8999602D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "CreateChat",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/create-chat.html",
@@ -2060,7 +2060,7 @@
     "id": "9CB126E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteChat",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-chat.html",
@@ -2070,7 +2070,7 @@
     "id": "5BD0EE50"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteChatUser",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-chat-user.html",
@@ -2080,7 +2080,7 @@
     "id": "A2185CAB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteExportedChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-exported-chat-invite.html",
@@ -2090,7 +2090,7 @@
     "id": "D464A42B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-history.html",
@@ -2100,7 +2100,7 @@
     "id": "B08F922A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-messages.html",
@@ -2110,7 +2110,7 @@
     "id": "E58E95D2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeletePhoneCallHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-phone-call-history.html",
@@ -2120,7 +2120,7 @@
     "id": "F9CBE409"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteRevokedExportedChatInvites",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-revoked-exported-chat-invites.html",
@@ -2130,7 +2130,7 @@
     "id": "56987BD5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DeleteScheduledMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/delete-scheduled-messages.html",
@@ -2140,7 +2140,7 @@
     "id": "59AE2B16"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "DiscardEncryption",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/discard-encryption.html",
@@ -2150,7 +2150,7 @@
     "id": "F393AEA0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditChatAbout",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-about.html",
@@ -2160,7 +2160,7 @@
     "id": "DEF60797"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditChatAdmin",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-admin.html",
@@ -2170,7 +2170,7 @@
     "id": "A85BD1C2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditChatDefaultBannedRights",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-default-banned-rights.html",
@@ -2180,7 +2180,7 @@
     "id": "A5866B41"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditChatPhoto",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-photo.html",
@@ -2190,7 +2190,7 @@
     "id": "35DDD674"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditChatTitle",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-chat-title.html",
@@ -2200,7 +2200,7 @@
     "id": "73783FFD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditExportedChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-exported-chat-invite.html",
@@ -2210,7 +2210,7 @@
     "id": "BDCA2F75"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditInlineBotMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-inline-bot-message.html",
@@ -2220,7 +2220,7 @@
     "id": "83557DBA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "EditMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/edit-message.html",
@@ -2230,7 +2230,7 @@
     "id": "48F71778"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ExportChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/export-chat-invite.html",
@@ -2240,7 +2240,7 @@
     "id": "A02CE5D5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "FaveSticker",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/fave-sticker.html",
@@ -2250,7 +2250,7 @@
     "id": "B9FFC55B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ForwardMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/forward-messages.html",
@@ -2260,7 +2260,7 @@
     "id": "CC30290B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAdminsWithInvites",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-admins-with-invites.html",
@@ -2270,7 +2270,7 @@
     "id": "3920E6EF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAllChats",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-chats.html",
@@ -2280,7 +2280,7 @@
     "id": "875F74BE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAllDrafts",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-drafts.html",
@@ -2290,7 +2290,7 @@
     "id": "6A3F8D65"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAllStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-all-stickers.html",
@@ -2300,7 +2300,7 @@
     "id": "B8A0A1A8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetArchivedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-archived-stickers.html",
@@ -2310,7 +2310,7 @@
     "id": "57F17692"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAttachMenuBot",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attach-menu-bot.html",
@@ -2320,7 +2320,7 @@
     "id": "77216192"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAttachMenuBots",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attach-menu-bots.html",
@@ -2330,7 +2330,7 @@
     "id": "16FCC2CB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAttachedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-attached-stickers.html",
@@ -2340,7 +2340,7 @@
     "id": "CC5B67CC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetAvailableReactions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-available-reactions.html",
@@ -2350,7 +2350,7 @@
     "id": "18DEA0AC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetBotCallbackAnswer",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-bot-callback-answer.html",
@@ -2360,7 +2360,7 @@
     "id": "9342CA07"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetChatInviteImporters",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-chat-invite-importers.html",
@@ -2370,7 +2370,7 @@
     "id": "DF04DD4E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetChats",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-chats.html",
@@ -2380,7 +2380,7 @@
     "id": "49E9528F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetCommonChats",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-common-chats.html",
@@ -2390,7 +2390,7 @@
     "id": "E40CA104"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetCustomEmojiDocuments",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-custom-emoji-documents.html",
@@ -2400,7 +2400,7 @@
     "id": "D9AB0F54"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDhConfig",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dh-config.html",
@@ -2410,7 +2410,7 @@
     "id": "26CF8950"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDialogFilters",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialog-filters.html",
@@ -2420,7 +2420,7 @@
     "id": "F19ED96D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDialogUnreadMarks",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialog-unread-marks.html",
@@ -2430,7 +2430,7 @@
     "id": "22E24E22"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDialogs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-dialogs.html",
@@ -2440,7 +2440,7 @@
     "id": "A0F4CB4F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDiscussionMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-discussion-message.html",
@@ -2450,7 +2450,7 @@
     "id": "446972FD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetDocumentByHash",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-document-by-hash.html",
@@ -2460,7 +2460,7 @@
     "id": "B1F2061F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetEmojiKeywords",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords.html",
@@ -2470,7 +2470,7 @@
     "id": "35A0E062"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetEmojiKeywordsDifference",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords-difference.html",
@@ -2480,7 +2480,7 @@
     "id": "1508B6AF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetEmojiKeywordsLanguages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-keywords-languages.html",
@@ -2490,7 +2490,7 @@
     "id": "4E9963B2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetEmojiStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-stickers.html",
@@ -2500,7 +2500,7 @@
     "id": "FBFCA18F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetEmojiURL",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-emoji-url.html",
@@ -2510,7 +2510,7 @@
     "id": "D5B10C26"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetExportedChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-exported-chat-invite.html",
@@ -2520,7 +2520,7 @@
     "id": "73746F5C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetExportedChatInvites",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-exported-chat-invites.html",
@@ -2530,7 +2530,7 @@
     "id": "A2B5A3F6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetFavedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-faved-stickers.html",
@@ -2540,7 +2540,7 @@
     "id": "4F1AAA9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetFeaturedEmojiStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-featured-emoji-stickers.html",
@@ -2550,7 +2550,7 @@
     "id": "ECF6736"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetFeaturedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-featured-stickers.html",
@@ -2560,7 +2560,7 @@
     "id": "64780B14"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetFullChat",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-full-chat.html",
@@ -2570,7 +2570,7 @@
     "id": "AEB00B34"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetGameHighScores",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-game-high-scores.html",
@@ -2580,7 +2580,7 @@
     "id": "E822649D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-history.html",
@@ -2590,7 +2590,7 @@
     "id": "4423E6C5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetInlineBotResults",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-inline-bot-results.html",
@@ -2600,7 +2600,7 @@
     "id": "514E999D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetInlineGameHighScores",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-inline-game-high-scores.html",
@@ -2610,7 +2610,7 @@
     "id": "F635E1B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMaskStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-mask-stickers.html",
@@ -2620,7 +2620,7 @@
     "id": "640F82B8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessageEditData",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-edit-data.html",
@@ -2630,7 +2630,7 @@
     "id": "FDA68D36"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessageReactionsList",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-reactions-list.html",
@@ -2640,7 +2640,7 @@
     "id": "E0EE6B77"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessageReadParticipants",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-message-read-participants.html",
@@ -2650,7 +2650,7 @@
     "id": "2C6F97B7"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages.html",
@@ -2660,7 +2660,7 @@
     "id": "63C66506"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessagesReactions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages-reactions.html",
@@ -2670,7 +2670,7 @@
     "id": "8BBA90E6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetMessagesViews",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-messages-views.html",
@@ -2680,7 +2680,7 @@
     "id": "5784D3E1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetOldFeaturedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-old-featured-stickers.html",
@@ -2690,7 +2690,7 @@
     "id": "7ED094A1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetOnlines",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-onlines.html",
@@ -2700,7 +2700,7 @@
     "id": "6E2BE050"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetPeerDialogs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-peer-dialogs.html",
@@ -2710,7 +2710,7 @@
     "id": "E470BCFD"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetPeerSettings",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-peer-settings.html",
@@ -2720,7 +2720,7 @@
     "id": "EFD9A6A2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetPinnedDialogs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-pinned-dialogs.html",
@@ -2730,7 +2730,7 @@
     "id": "D6B94DF2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetPollResults",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-poll-results.html",
@@ -2740,7 +2740,7 @@
     "id": "73BB643B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetPollVotes",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-poll-votes.html",
@@ -2750,7 +2750,7 @@
     "id": "B86E380E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetRecentLocations",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-recent-locations.html",
@@ -2760,7 +2760,7 @@
     "id": "702A40E0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetRecentStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-recent-stickers.html",
@@ -2770,7 +2770,7 @@
     "id": "9DA9403B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetReplies",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-replies.html",
@@ -2780,7 +2780,7 @@
     "id": "22DDD30C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSavedGifs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-saved-gifs.html",
@@ -2790,7 +2790,7 @@
     "id": "5CF09635"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetScheduledHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-scheduled-history.html",
@@ -2800,7 +2800,7 @@
     "id": "F516760B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetScheduledMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-scheduled-messages.html",
@@ -2810,7 +2810,7 @@
     "id": "BDBB0464"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSearchCounters",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-counters.html",
@@ -2820,7 +2820,7 @@
     "id": "732EEF00"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSearchResultsCalendar",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-results-calendar.html",
@@ -2830,7 +2830,7 @@
     "id": "49F0BDE9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSearchResultsPositions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-search-results-positions.html",
@@ -2840,7 +2840,7 @@
     "id": "6E9583A3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSplitRanges",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-split-ranges.html",
@@ -2850,7 +2850,7 @@
     "id": "1CFF7E08"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetStickerSet",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-sticker-set.html",
@@ -2860,7 +2860,7 @@
     "id": "C8A0EC74"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-stickers.html",
@@ -2870,7 +2870,7 @@
     "id": "D5A5D3A1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetSuggestedDialogFilters",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-suggested-dialog-filters.html",
@@ -2880,7 +2880,7 @@
     "id": "A29CD42C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetUnreadMentions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-unread-mentions.html",
@@ -2890,7 +2890,7 @@
     "id": "46578472"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetUnreadReactions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-unread-reactions.html",
@@ -2900,7 +2900,7 @@
     "id": "E85BAE1A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetWebPage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-web-page.html",
@@ -2910,7 +2910,7 @@
     "id": "32CA8F91"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "GetWebPagePreview",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/get-web-page-preview.html",
@@ -2920,7 +2920,7 @@
     "id": "8B68B0CC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "HideAllChatJoinRequests",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-all-chat-join-requests.html",
@@ -2930,7 +2930,7 @@
     "id": "E085F4EA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "HideChatJoinRequest",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-chat-join-request.html",
@@ -2940,7 +2940,7 @@
     "id": "7FE7E815"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "HidePeerSettingsBar",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/hide-peer-settings-bar.html",
@@ -2950,7 +2950,7 @@
     "id": "4FACB138"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ImportChatInvite",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/import-chat-invite.html",
@@ -2960,7 +2960,7 @@
     "id": "6C50051C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "InitHistoryImport",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/init-history-import.html",
@@ -2970,7 +2970,7 @@
     "id": "34090C3B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "InstallStickerSet",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/install-sticker-set.html",
@@ -2980,7 +2980,7 @@
     "id": "C78FE460"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "MarkDialogUnread",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/mark-dialog-unread.html",
@@ -2990,7 +2990,7 @@
     "id": "C286D98F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "MigrateChat",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/migrate-chat.html",
@@ -3000,7 +3000,7 @@
     "id": "A2875319"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ProlongWebView",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/prolong-web-view.html",
@@ -3010,7 +3010,7 @@
     "id": "EA5FBCCE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "RateTranscribedAudio",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/rate-transcribed-audio.html",
@@ -3020,7 +3020,7 @@
     "id": "7F1D072F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadDiscussion",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-discussion.html",
@@ -3030,7 +3030,7 @@
     "id": "F731A9F4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadEncryptedHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-encrypted-history.html",
@@ -3040,7 +3040,7 @@
     "id": "7F4B690A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadFeaturedStickers",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-featured-stickers.html",
@@ -3050,7 +3050,7 @@
     "id": "5B118126"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadHistory",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-history.html",
@@ -3060,7 +3060,7 @@
     "id": "E306D3A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadMentions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-mentions.html",
@@ -3070,7 +3070,7 @@
     "id": "F0189D3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadMessageContents",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-message-contents.html",
@@ -3080,7 +3080,7 @@
     "id": "36A73F77"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReadReactions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/read-reactions.html",
@@ -3090,7 +3090,7 @@
     "id": "82E251D7"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReceivedMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/received-messages.html",
@@ -3100,7 +3100,7 @@
     "id": "5A954C0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReceivedQueue",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/received-queue.html",
@@ -3110,7 +3110,7 @@
     "id": "55A5BB66"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReorderPinnedDialogs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/reorder-pinned-dialogs.html",
@@ -3120,7 +3120,7 @@
     "id": "3B1ADF37"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReorderStickerSets",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/reorder-sticker-sets.html",
@@ -3130,7 +3130,7 @@
     "id": "78337739"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "Report",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/report.html",
@@ -3140,7 +3140,7 @@
     "id": "8953AB4E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReportEncryptedSpam",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/report-encrypted-spam.html",
@@ -3150,7 +3150,7 @@
     "id": "4B0C8C0F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ReportSpam",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/report-spam.html",
@@ -3160,7 +3160,7 @@
     "id": "CF1592DB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "RequestEncryption",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-encryption.html",
@@ -3170,7 +3170,7 @@
     "id": "F64DAF43"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "RequestSimpleWebView",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-simple-web-view.html",
@@ -3180,7 +3180,7 @@
     "id": "6ABB2F73"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "RequestUrlAuth",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-url-auth.html",
@@ -3190,7 +3190,7 @@
     "id": "198FB446"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "RequestWebView",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/request-web-view.html",
@@ -3200,7 +3200,7 @@
     "id": "91B15831"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SaveDefaultSendAs",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-default-send-as.html",
@@ -3210,7 +3210,7 @@
     "id": "CCFDDF96"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SaveDraft",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-draft.html",
@@ -3220,7 +3220,7 @@
     "id": "BC39E14B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SaveGif",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-gif.html",
@@ -3230,7 +3230,7 @@
     "id": "327A30CB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SaveRecentSticker",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/save-recent-sticker.html",
@@ -3240,7 +3240,7 @@
     "id": "392718F8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "Search",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/search.html",
@@ -3250,7 +3250,7 @@
     "id": "A0FDA762"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SearchGlobal",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-global.html",
@@ -3260,7 +3260,7 @@
     "id": "4BC6589A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SearchSentMedia",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-sent-media.html",
@@ -3270,7 +3270,7 @@
     "id": "107E31A0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SearchStickerSets",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/search-sticker-sets.html",
@@ -3280,7 +3280,7 @@
     "id": "35705B8A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendEncrypted",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted.html",
@@ -3290,7 +3290,7 @@
     "id": "44FA7A15"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendEncryptedFile",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted-file.html",
@@ -3300,7 +3300,7 @@
     "id": "5559481D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendEncryptedService",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-encrypted-service.html",
@@ -3310,7 +3310,7 @@
     "id": "32D439A4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendInlineBotResult",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-inline-bot-result.html",
@@ -3320,7 +3320,7 @@
     "id": "7AA11297"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendMedia",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-media.html",
@@ -3330,7 +3330,7 @@
     "id": "E25FF8E0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-message.html",
@@ -3340,7 +3340,7 @@
     "id": "D9D75A4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendMultiMedia",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-multi-media.html",
@@ -3350,7 +3350,7 @@
     "id": "F803138F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendReaction",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-reaction.html",
@@ -3360,7 +3360,7 @@
     "id": "25690CE4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendScheduledMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-scheduled-messages.html",
@@ -3370,7 +3370,7 @@
     "id": "BD38850A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendScreenshotNotification",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-screenshot-notification.html",
@@ -3380,7 +3380,7 @@
     "id": "C97DF020"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendVote",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-vote.html",
@@ -3390,7 +3390,7 @@
     "id": "10EA6184"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendWebViewData",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-web-view-data.html",
@@ -3400,7 +3400,7 @@
     "id": "DC0242C8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SendWebViewResultMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/send-web-view-result-message.html",
@@ -3410,7 +3410,7 @@
     "id": "A4314F5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetBotCallbackAnswer",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-callback-answer.html",
@@ -3420,7 +3420,7 @@
     "id": "D58F130A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetBotPrecheckoutResults",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-precheckout-results.html",
@@ -3430,7 +3430,7 @@
     "id": "9C2DD95"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetBotShippingResults",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-bot-shipping-results.html",
@@ -3440,7 +3440,7 @@
     "id": "E5F672FA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetChatAvailableReactions",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-chat-available-reactions.html",
@@ -3450,7 +3450,7 @@
     "id": "14050EA6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetChatTheme",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-chat-theme.html",
@@ -3460,7 +3460,7 @@
     "id": "E63BE13F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetDefaultReaction",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-default-reaction.html",
@@ -3470,7 +3470,7 @@
     "id": "D960C4D4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetEncryptedTyping",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-encrypted-typing.html",
@@ -3480,7 +3480,7 @@
     "id": "791451ED"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetGameScore",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-game-score.html",
@@ -3490,7 +3490,7 @@
     "id": "8EF8ECC0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetHistoryTTL",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-history-ttl.html",
@@ -3500,7 +3500,7 @@
     "id": "B80E5FE4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetInlineBotResults",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-inline-bot-results.html",
@@ -3510,7 +3510,7 @@
     "id": "EB5EA206"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetInlineGameScore",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-inline-game-score.html",
@@ -3520,7 +3520,7 @@
     "id": "15AD9F64"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "SetTyping",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/set-typing.html",
@@ -3530,7 +3530,7 @@
     "id": "58943EE2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "StartBot",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/start-bot.html",
@@ -3540,7 +3540,7 @@
     "id": "E6DF7378"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "StartHistoryImport",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/start-history-import.html",
@@ -3550,7 +3550,7 @@
     "id": "B43DF344"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ToggleBotInAttachMenu",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-bot-in-attach-menu.html",
@@ -3560,7 +3560,7 @@
     "id": "1AEE33AF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ToggleDialogPin",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-dialog-pin.html",
@@ -3570,7 +3570,7 @@
     "id": "A731E257"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ToggleNoForwards",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-no-forwards.html",
@@ -3580,7 +3580,7 @@
     "id": "B11EAFA2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "ToggleStickerSets",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/toggle-sticker-sets.html",
@@ -3590,7 +3590,7 @@
     "id": "B5052FEA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "TranscribeAudio",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/transcribe-audio.html",
@@ -3600,7 +3600,7 @@
     "id": "269E9A49"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "TranslateText",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/translate-text.html",
@@ -3610,7 +3610,7 @@
     "id": "24CE6DEE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UninstallStickerSet",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/uninstall-sticker-set.html",
@@ -3620,7 +3620,7 @@
     "id": "F96E55DE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UnpinAllMessages",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/unpin-all-messages.html",
@@ -3630,7 +3630,7 @@
     "id": "F025BC8B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UpdateDialogFilter",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-dialog-filter.html",
@@ -3640,7 +3640,7 @@
     "id": "1AD4A04A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UpdateDialogFiltersOrder",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-dialog-filters-order.html",
@@ -3650,7 +3650,7 @@
     "id": "C563C1E4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UpdatePinnedMessage",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/update-pinned-message.html",
@@ -3660,7 +3660,7 @@
     "id": "D2AAF7EC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UploadEncryptedFile",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-encrypted-file.html",
@@ -3670,7 +3670,7 @@
     "id": "5057C497"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UploadImportedMedia",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-imported-media.html",
@@ -3680,7 +3680,7 @@
     "id": "2A862092"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.messages.",
+    "module": "pyrogram.raw.functions.messages",
     "class_name": "UploadMedia",
     "category": "Messages",
     "docs": "https://docs.pyrogram.org/telegram/functions/messages/upload-media.html",
@@ -3690,7 +3690,7 @@
     "id": "519BC2B1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "AssignAppStoreTransaction",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/assign-app-store-transaction.html",
@@ -3700,7 +3700,7 @@
     "id": "80ED747D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "AssignPlayMarketTransaction",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/assign-play-market-transaction.html",
@@ -3710,7 +3710,7 @@
     "id": "DFFD50D3"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "CanPurchasePremium",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/can-purchase-premium.html",
@@ -3720,7 +3720,7 @@
     "id": "9FC19EB6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "ClearSavedInfo",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/clear-saved-info.html",
@@ -3730,7 +3730,7 @@
     "id": "D83D70C1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "ExportInvoice",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/export-invoice.html",
@@ -3740,7 +3740,7 @@
     "id": "F91B065"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "GetBankCardData",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-bank-card-data.html",
@@ -3750,7 +3750,7 @@
     "id": "2E79D779"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "GetPaymentForm",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-payment-form.html",
@@ -3760,7 +3760,7 @@
     "id": "37148DBB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "GetPaymentReceipt",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-payment-receipt.html",
@@ -3770,7 +3770,7 @@
     "id": "2478D1CC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "GetSavedInfo",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/get-saved-info.html",
@@ -3780,7 +3780,7 @@
     "id": "227D824B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "RequestRecurringPayment",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/request-recurring-payment.html",
@@ -3790,7 +3790,7 @@
     "id": "146E958D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "SendPaymentForm",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/send-payment-form.html",
@@ -3800,7 +3800,7 @@
     "id": "2D03522F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.payments.",
+    "module": "pyrogram.raw.functions.payments",
     "class_name": "ValidateRequestedInfo",
     "category": "Payments",
     "docs": "https://docs.pyrogram.org/telegram/functions/payments/validate-requested-info.html",
@@ -3810,7 +3810,7 @@
     "id": "B6C8F12B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "AcceptCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/accept-call.html",
@@ -3820,7 +3820,7 @@
     "id": "3BD2B4A0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "CheckGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/check-group-call.html",
@@ -3830,7 +3830,7 @@
     "id": "B59CF977"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ConfirmCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/confirm-call.html",
@@ -3840,7 +3840,7 @@
     "id": "2EFE1722"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "CreateGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/create-group-call.html",
@@ -3850,7 +3850,7 @@
     "id": "48CDC6D8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "DiscardCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/discard-call.html",
@@ -3860,7 +3860,7 @@
     "id": "B2CBC1C0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "DiscardGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/discard-group-call.html",
@@ -3870,7 +3870,7 @@
     "id": "7A777135"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "EditGroupCallParticipant",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/edit-group-call-participant.html",
@@ -3880,7 +3880,7 @@
     "id": "A5273ABF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "EditGroupCallTitle",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/edit-group-call-title.html",
@@ -3890,7 +3890,7 @@
     "id": "1CA6AC0A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ExportGroupCallInvite",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/export-group-call-invite.html",
@@ -3900,7 +3900,7 @@
     "id": "E6AA647F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetCallConfig",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-call-config.html",
@@ -3910,7 +3910,7 @@
     "id": "55451FA9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call.html",
@@ -3920,7 +3920,7 @@
     "id": "41845DB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetGroupCallJoinAs",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-join-as.html",
@@ -3930,7 +3930,7 @@
     "id": "EF7C213A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetGroupCallStreamChannels",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-stream-channels.html",
@@ -3940,7 +3940,7 @@
     "id": "1AB21940"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetGroupCallStreamRtmpUrl",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-call-stream-rtmp-url.html",
@@ -3950,7 +3950,7 @@
     "id": "DEB3ABBF"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "GetGroupParticipants",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/get-group-participants.html",
@@ -3960,7 +3960,7 @@
     "id": "C558D8AB"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "InviteToGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/invite-to-group-call.html",
@@ -3970,7 +3970,7 @@
     "id": "7B393160"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "JoinGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/join-group-call.html",
@@ -3980,7 +3980,7 @@
     "id": "B132FF7B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "JoinGroupCallPresentation",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/join-group-call-presentation.html",
@@ -3990,7 +3990,7 @@
     "id": "CBEA6BC4"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "LeaveGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/leave-group-call.html",
@@ -4000,7 +4000,7 @@
     "id": "500377F9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "LeaveGroupCallPresentation",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/leave-group-call-presentation.html",
@@ -4010,7 +4010,7 @@
     "id": "1C50D144"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ReceivedCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/received-call.html",
@@ -4020,7 +4020,7 @@
     "id": "17D54F61"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "RequestCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/request-call.html",
@@ -4030,7 +4030,7 @@
     "id": "42FF96ED"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "SaveCallDebug",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-call-debug.html",
@@ -4040,7 +4040,7 @@
     "id": "277ADD7E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "SaveCallLog",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-call-log.html",
@@ -4050,7 +4050,7 @@
     "id": "41248786"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "SaveDefaultGroupCallJoinAs",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/save-default-group-call-join-as.html",
@@ -4060,7 +4060,7 @@
     "id": "575E1F8C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "SendSignalingData",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/send-signaling-data.html",
@@ -4070,7 +4070,7 @@
     "id": "FF7A9383"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "SetCallRating",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/set-call-rating.html",
@@ -4080,7 +4080,7 @@
     "id": "59EAD627"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "StartScheduledGroupCall",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/start-scheduled-group-call.html",
@@ -4090,7 +4090,7 @@
     "id": "5680E342"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ToggleGroupCallRecord",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-record.html",
@@ -4100,7 +4100,7 @@
     "id": "F128C708"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ToggleGroupCallSettings",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-settings.html",
@@ -4110,7 +4110,7 @@
     "id": "74BBB43D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.phone.",
+    "module": "pyrogram.raw.functions.phone",
     "class_name": "ToggleGroupCallStartSubscription",
     "category": "Phone",
     "docs": "https://docs.pyrogram.org/telegram/functions/phone/toggle-group-call-start-subscription.html",
@@ -4120,7 +4120,7 @@
     "id": "219C34E6"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "module": "pyrogram.raw.functions.photos",
     "class_name": "DeletePhotos",
     "category": "Photos",
     "docs": "https://docs.pyrogram.org/telegram/functions/photos/delete-photos.html",
@@ -4130,7 +4130,7 @@
     "id": "87CF7F2F"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "module": "pyrogram.raw.functions.photos",
     "class_name": "GetUserPhotos",
     "category": "Photos",
     "docs": "https://docs.pyrogram.org/telegram/functions/photos/get-user-photos.html",
@@ -4140,7 +4140,7 @@
     "id": "91CD32A8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "module": "pyrogram.raw.functions.photos",
     "class_name": "UpdateProfilePhoto",
     "category": "Photos",
     "docs": "https://docs.pyrogram.org/telegram/functions/photos/update-profile-photo.html",
@@ -4150,7 +4150,7 @@
     "id": "72D4742C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.photos.",
+    "module": "pyrogram.raw.functions.photos",
     "class_name": "UploadProfilePhoto",
     "category": "Photos",
     "docs": "https://docs.pyrogram.org/telegram/functions/photos/upload-profile-photo.html",
@@ -4160,7 +4160,7 @@
     "id": "89F30F69"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "module": "pyrogram.raw.functions.stats",
     "class_name": "GetBroadcastStats",
     "category": "Stats",
     "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-broadcast-stats.html",
@@ -4170,7 +4170,7 @@
     "id": "AB42441A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "module": "pyrogram.raw.functions.stats",
     "class_name": "GetMegagroupStats",
     "category": "Stats",
     "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-megagroup-stats.html",
@@ -4180,7 +4180,7 @@
     "id": "DCDF8607"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "module": "pyrogram.raw.functions.stats",
     "class_name": "GetMessagePublicForwards",
     "category": "Stats",
     "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-message-public-forwards.html",
@@ -4190,7 +4190,7 @@
     "id": "5630281B"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "module": "pyrogram.raw.functions.stats",
     "class_name": "GetMessageStats",
     "category": "Stats",
     "docs": "https://docs.pyrogram.org/telegram/functions/stats/get-message-stats.html",
@@ -4200,7 +4200,7 @@
     "id": "B6E0A3F5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stats.",
+    "module": "pyrogram.raw.functions.stats",
     "class_name": "LoadAsyncGraph",
     "category": "Stats",
     "docs": "https://docs.pyrogram.org/telegram/functions/stats/load-async-graph.html",
@@ -4210,7 +4210,7 @@
     "id": "621D5FA0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "AddStickerToSet",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/add-sticker-to-set.html",
@@ -4220,7 +4220,7 @@
     "id": "8653FEBE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "ChangeStickerPosition",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/change-sticker-position.html",
@@ -4230,7 +4230,7 @@
     "id": "FFB6D4CA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "CheckShortName",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/check-short-name.html",
@@ -4240,7 +4240,7 @@
     "id": "284B3639"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "CreateStickerSet",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/create-sticker-set.html",
@@ -4250,7 +4250,7 @@
     "id": "9021AB67"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "RemoveStickerFromSet",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/remove-sticker-from-set.html",
@@ -4260,7 +4260,7 @@
     "id": "F7760F51"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "SetStickerSetThumb",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/set-sticker-set-thumb.html",
@@ -4270,7 +4270,7 @@
     "id": "9A364E30"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.stickers.",
+    "module": "pyrogram.raw.functions.stickers",
     "class_name": "SuggestShortName",
     "category": "Stickers",
     "docs": "https://docs.pyrogram.org/telegram/functions/stickers/suggest-short-name.html",
@@ -4280,7 +4280,7 @@
     "id": "4DAFC503"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "module": "pyrogram.raw.functions.updates",
     "class_name": "GetChannelDifference",
     "category": "Updates",
     "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-channel-difference.html",
@@ -4290,7 +4290,7 @@
     "id": "3173D78"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "module": "pyrogram.raw.functions.updates",
     "class_name": "GetDifference",
     "category": "Updates",
     "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-difference.html",
@@ -4300,7 +4300,7 @@
     "id": "25939651"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.updates.",
+    "module": "pyrogram.raw.functions.updates",
     "class_name": "GetState",
     "category": "Updates",
     "docs": "https://docs.pyrogram.org/telegram/functions/updates/get-state.html",
@@ -4310,7 +4310,7 @@
     "id": "EDD4882A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "GetCdnFile",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-cdn-file.html",
@@ -4320,7 +4320,7 @@
     "id": "395F69DA"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "GetCdnFileHashes",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-cdn-file-hashes.html",
@@ -4330,7 +4330,7 @@
     "id": "91DC3F31"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "GetFile",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-file.html",
@@ -4340,7 +4340,7 @@
     "id": "BE5335BE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "GetFileHashes",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-file-hashes.html",
@@ -4350,7 +4350,7 @@
     "id": "9156982A"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "GetWebFile",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/get-web-file.html",
@@ -4360,7 +4360,7 @@
     "id": "24E6818D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "ReuploadCdnFile",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/reupload-cdn-file.html",
@@ -4370,7 +4370,7 @@
     "id": "9B2754A8"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "SaveBigFilePart",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/save-big-file-part.html",
@@ -4380,7 +4380,7 @@
     "id": "DE7B673D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.upload.",
+    "module": "pyrogram.raw.functions.upload",
     "class_name": "SaveFilePart",
     "category": "Upload",
     "docs": "https://docs.pyrogram.org/telegram/functions/upload/save-file-part.html",
@@ -4390,7 +4390,7 @@
     "id": "B304A621"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.users.",
+    "module": "pyrogram.raw.functions.users",
     "class_name": "GetFullUser",
     "category": "Users",
     "docs": "https://docs.pyrogram.org/telegram/functions/users/get-full-user.html",
@@ -4400,7 +4400,7 @@
     "id": "B60F5918"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.users.",
+    "module": "pyrogram.raw.functions.users",
     "class_name": "GetUsers",
     "category": "Users",
     "docs": "https://docs.pyrogram.org/telegram/functions/users/get-users.html",
@@ -4410,7 +4410,7 @@
     "id": "D91A548"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.users.",
+    "module": "pyrogram.raw.functions.users",
     "class_name": "SetSecureValueErrors",
     "category": "Users",
     "docs": "https://docs.pyrogram.org/telegram/functions/users/set-secure-value-errors.html",
@@ -4420,7 +4420,7 @@
     "id": "90C894B5"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "DestroyAuthKey",
     "category": "DestroyAuthKey",
     "docs": "https://docs.pyrogram.org/telegram/functions/destroy-auth-key.html",
@@ -4430,7 +4430,7 @@
     "id": "D1435160"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "DestroySession",
     "category": "DestroySession",
     "docs": "https://docs.pyrogram.org/telegram/functions/destroy-session.html",
@@ -4440,7 +4440,7 @@
     "id": "E7512126"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "GetFutureSalts",
     "category": "GetFutureSalts",
     "docs": "https://docs.pyrogram.org/telegram/functions/get-future-salts.html",
@@ -4450,7 +4450,7 @@
     "id": "B921BD04"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InitConnection",
     "category": "InitConnection",
     "docs": "https://docs.pyrogram.org/telegram/functions/init-connection.html",
@@ -4460,7 +4460,7 @@
     "id": "C1CD5EA9"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeAfterMsg",
     "category": "InvokeAfterMsg",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-after-msg.html",
@@ -4470,7 +4470,7 @@
     "id": "CB9F372D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeAfterMsgs",
     "category": "InvokeAfterMsgs",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-after-msgs.html",
@@ -4480,7 +4480,7 @@
     "id": "3DC4B4F0"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeWithLayer",
     "category": "InvokeWithLayer",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-layer.html",
@@ -4490,7 +4490,7 @@
     "id": "DA9B0D0D"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeWithMessagesRange",
     "category": "InvokeWithMessagesRange",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-messages-range.html",
@@ -4500,7 +4500,7 @@
     "id": "365275F2"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeWithTakeout",
     "category": "InvokeWithTakeout",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-with-takeout.html",
@@ -4510,7 +4510,7 @@
     "id": "ACA9FD2E"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "InvokeWithoutUpdates",
     "category": "InvokeWithoutUpdates",
     "docs": "https://docs.pyrogram.org/telegram/functions/invoke-without-updates.html",
@@ -4520,7 +4520,7 @@
     "id": "BF9459B7"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "Ping",
     "category": "Ping",
     "docs": "https://docs.pyrogram.org/telegram/functions/ping.html",
@@ -4530,7 +4530,7 @@
     "id": "7ABE77EC"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "PingDelayDisconnect",
     "category": "PingDelayDisconnect",
     "docs": "https://docs.pyrogram.org/telegram/functions/ping-delay-disconnect.html",
@@ -4540,7 +4540,7 @@
     "id": "F3427B8C"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "ReqDHParams",
     "category": "ReqDHParams",
     "docs": "https://docs.pyrogram.org/telegram/functions/req-dh-params.html",
@@ -4550,7 +4550,7 @@
     "id": "D712E4BE"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "ReqPq",
     "category": "ReqPq",
     "docs": "https://docs.pyrogram.org/telegram/functions/req-pq.html",
@@ -4560,7 +4560,7 @@
     "id": "60469778"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "ReqPqMulti",
     "category": "ReqPqMulti",
     "docs": "https://docs.pyrogram.org/telegram/functions/req-pq-multi.html",
@@ -4570,7 +4570,7 @@
     "id": "BE7E8EF1"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "RpcDropAnswer",
     "category": "RpcDropAnswer",
     "docs": "https://docs.pyrogram.org/telegram/functions/rpc-drop-answer.html",
@@ -4580,7 +4580,7 @@
     "id": "58E4A740"
   },
   {
-    "pre_class_name": "pyrogram.raw.functions.",
+    "module": "pyrogram.raw.functions",
     "class_name": "SetClientDHParams",
     "category": "SetClientDHParams",
     "docs": "https://docs.pyrogram.org/telegram/functions/set-client-dh-params.html",

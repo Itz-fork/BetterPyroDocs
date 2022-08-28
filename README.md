@@ -61,5 +61,5 @@
 - **Demo:** https://itz-fork.github.io/BetterPyroDocs
 
 
-## Why?
+# Why?
 The main goal of this project is to improve my web scraping skills, experiment with deno and mongodb atlas full text feature.
