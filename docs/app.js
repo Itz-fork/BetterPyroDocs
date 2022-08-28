@@ -26,7 +26,7 @@ async function parse_raw_func_results(results_div, results) {
       <div class="card-body">
         <h2 class="card-title">${item.class_name}</h2>
         <h3><b>Category:</b> ${item.category}</h3>
-        <h3><b>Importing:</b> ${item.import_syntax}</h3>
+        <h3><b>Importing:</b> <code>${item.import_syntax}</code></h3>
         <h3><b>Layer:</b> ${item.layer}</h3>
         <h3><b>ID:</b> ${item.id}</h3>
         <h3><b>Description:</b><p>${item.description}</p>
