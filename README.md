@@ -125,3 +125,7 @@ You need to create 2 search indexes to make it work. First one for api methods a
 
 # Why?
 The main goal of this project is to improve my web scraping skills, experiment with deno and mongodb atlas full text feature.
+
+
+# License
+Licensed under [MIT](LICENSE)
