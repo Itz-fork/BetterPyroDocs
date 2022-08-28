@@ -58,7 +58,7 @@
 
 - **Run:** Just open the [index.html](web/index.html)
 
-- **Demo:** 
+- **Demo:** https://itz-fork.github.io/BetterPyroDocs
 
 
 ## Why?

@@ -32,6 +32,11 @@ async function index_data(
 }
 
 // Search for the api methods
+/**
+ * @param query: String to search for
+ * @param results_limit: Search results limit
+ * @returns Object with type { [key: number]: ApiDBSchema }
+ */
 async function search_api_methods(query: string, results_limit = 10) {
     // deno-lint-ignore prefer-const
     let results: { [key: number]: ApiDBSchema } = {};
@@ -63,6 +68,11 @@ async function search_api_methods(query: string, results_limit = 10) {
 }
 
 // Search fot raw functions
+/**
+ * @param query: String to search for
+ * @param results_limit: Search results limit
+ * @returns Object with type { [key: number]: RawFuncDBSchema }
+ */
 async function search_raw_functions(query: string, results_limit = 10) {
     // deno-lint-ignore prefer-const
     let results: { [key: number]: RawFuncDBSchema } = {};
@@ -72,14 +82,14 @@ async function search_raw_functions(query: string, results_limit = 10) {
                 "index": "raw_functions",
                 "text": {
                     "query": `${query}`,
-                    "path": ["class_name", "description", "pre_class_name"],
+                    "path": ["class_name", "description"],
                 },
             },
         },
         {
             $project: {
                 _id: 0,
-                pre_class_name: 1,
+                module: 1,
                 class_name: 1,
                 category: 1,
                 docs: 1,

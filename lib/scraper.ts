@@ -16,7 +16,6 @@ async function fetch_html(url: string) {
 
 /**
  * Scrapes methods and descriptions from https://docs.pyrogram.org/api/methods/
- * @returns object containing objects of methods
  */
 async function scrape_methods() {
     // deno-lint-ignore prefer-const
@@ -55,7 +54,6 @@ async function scrape_methods() {
 
 /**
  * Scrapes info about raw functions from https://docs.pyrogram.org/telegram/functions/
- * @returns object containing list of raw functions
  */
 async function scrape_raw_functions() {
     let raw_func_obj: Array<Record<string, unknown>> = [];
@@ -79,17 +77,17 @@ async function scrape_raw_functions() {
                     ?.getElementsByClassName("py class")[0];
                 const rfdesc = rfhtml?.getElementsByTagName("dd")[0];
                 // Raw function details
-                let preclassname = rfhtml?.getElementsByClassName(
+                let module = rfhtml?.getElementsByClassName(
                     "sig-prename descclassname",
                 )[0].innerText?.slice(0, -1);
                 let classname = rfhtml?.getElementsByClassName("sig-name descname")[0]
                     .innerText;
                 raw_func_obj.push({
-                    pre_class_name: preclassname,
+                    module: module,
                     class_name: classname,
                     category: belongs_to,
                     docs: page_url,
-                    import_syntax: `from ${preclassname} import ${classname}`,
+                    import_syntax: `from ${module} import ${classname}`,
                     description: rfdesc?.getElementsByTagName("p")[0].innerText,
                     layer:
                         rfdesc?.getElementsByClassName("docutils literal notranslate")[0].innerText,

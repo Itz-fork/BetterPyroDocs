@@ -48,8 +48,9 @@ async function prepare_method_text(marr: { [key: number]: ApiDBSchema }) {
                     message_text: `
 <b>➭ Method:</b> <a href="${mtd.docs}">${mtd.name}</a>
 <b>➭ Category:</b> <a href="https://docs.pyrogram.org/api/methods/#${mtd.category}">${mtd.category}</a>
-<b>➭ Official Docs:</b> <a href="${mtd.docs}">Docs!</a>
-<b>➭ Description:</b> <code>${mtd.description}</code>                 
+<b>➭ Description:</b> <code>${mtd.description}</code>
+
+<b><a href="${mtd.docs}">Read Docs!</a></b>
 `,
                     parse_mode: "HTML",
                     disable_web_page_preview: true,
@@ -77,8 +78,9 @@ async function prepare_rf_results(rarr: { [key: number]: RawFuncDBSchema }) {
 <b>➭ Import it:</b> <code>${mtd.import_syntax}</code>
 <b>➭ Layer:</b> <code>${mtd.layer}</code>
 <b>➭ ID:</b> <code>${mtd.id}</code>
-<b>➭ Description:</b> <code>${mtd.description}</code>                 
-<b>➭ Official Docs:</b> <a href="${mtd.docs}">Docs!</a>
+<b>➭ Description:</b> <code>${mtd.description}</code>
+
+<b><a href="${mtd.docs}">Read Docs!</a></b>
 `,
                     parse_mode: "HTML",
                     disable_web_page_preview: true,
