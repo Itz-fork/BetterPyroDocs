@@ -41,7 +41,7 @@ async function search_api_methods(query: string, results_limit = 10) {
                 "index": "api_methods",
                 "text": {
                     "query": `${query}`,
-                    "path": ["description", "name"],
+                    "path": ["name", "description"],
                 },
             },
         },
@@ -72,7 +72,7 @@ async function search_raw_functions(query: string, results_limit = 10) {
                 "index": "raw_functions",
                 "text": {
                     "query": `${query}`,
-                    "path": ["description", "class_name", "pre_class_name"],
+                    "path": ["class_name", "description", "pre_class_name"],
                 },
             },
         },
@@ -97,5 +97,5 @@ async function search_raw_functions(query: string, results_limit = 10) {
     return results;
 }
 
-export { index_data,search_api_methods,search_raw_functions };
-export type { ApiDBSchema,RawFuncDBSchema };
+export { index_data, search_api_methods, search_raw_functions };
+export type { ApiDBSchema, RawFuncDBSchema };
