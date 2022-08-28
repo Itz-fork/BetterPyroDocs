@@ -1,7 +1,14 @@
-// deno-lint-ignore require-await
+// deno-lint-ignore-file require-await
+
+async function check_results(results) {
+  for (let x in results) { return false; }
+  return true;
+}
+
 async function parse_method_results(results_div, results) {
-  if (!results) {
+  if (await check_results(results)) {
     alert("Nothing found for your query!")
+    return
   }
   results_div.innerHTML = ""
   for (const [key, item] of Object.entries(results)) {
@@ -20,10 +27,10 @@ async function parse_method_results(results_div, results) {
   }
 }
 
-// deno-lint-ignore require-await
 async function parse_raw_func_results(results_div, results) {
-  if (!results) {
+  if (await check_results(results)) {
     alert("Nothing found for your query!")
+    return
   }
   results_div.innerHTML = ""
   for (const [key, item] of Object.entries(results)) {
@@ -52,6 +59,16 @@ async function Get_Results() {
   const is_raw_funcs = document.getElementById("is_raw_funcs").checked
   const results_div = document.getElementById("results")
 
+  // Check if query is empty
+  if (query === "") {
+    alert("Give something to search!")
+    return
+  }
+
+  // Show loading screen
+  const la = document.getElementById("loading")
+  la.style = "opacity: 1"
+
   // Fetch data and update the UI
   if (is_methods) {
     const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
@@ -63,4 +80,6 @@ async function Get_Results() {
     const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
     await parse_method_results(results_div, results)
   }
+
+  la.innerHTML = ""
 }

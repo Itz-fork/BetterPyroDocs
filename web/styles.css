@@ -5,6 +5,11 @@ input[type=checkbox] {
     transform: scale(0.5);
 }
 
+/* Loading animation */
+#loading {
+    opacity: 0;
+}
+
 /* Footer */
 .footer {
     position: relative;
