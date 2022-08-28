@@ -47,7 +47,6 @@ async function Get_Results() {
   const results_div = document.getElementById("results")
 
   // Fetch data
-  let to_fetch;
   if (is_methods) {
     const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
     await parse_method_results(results_div, results)
