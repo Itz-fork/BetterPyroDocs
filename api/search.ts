@@ -10,7 +10,8 @@ const Searchrouter = new Router();
 Searchrouter.get("/", async (ctx) => {
     ctx.response.body = {
         status: "alive",
-        developer: "https://github.com/Itz-fork"
+        developer: "https://github.com/Itz-fork",
+        repo: "https://github.com/Itz-fork/BetterPyroDocs"
     };
 });
 
@@ -18,7 +19,10 @@ Searchrouter.get("/", async (ctx) => {
 Searchrouter.get("/search/methods/:q", async (ctx) => {
     const query = ctx.params.q;
     ctx.response.body = await search_api_methods(query);
-    ctx.response.headers.set('Access-Control-Allow-Origin', '*')
+    // Headers
+    ctx.response.headers.set("Access-Control-Allow-Origin", "*");
+    ctx.response.headers.set("Cache-Control", "max-age=604800");
+    ctx.response.headers.set("Age", "259200");
     return ctx.response.body;
 });
 
@@ -26,7 +30,10 @@ Searchrouter.get("/search/methods/:q", async (ctx) => {
 Searchrouter.get("/search/raw/:q", async (ctx) => {
     const query = ctx.params.q;
     ctx.response.body = await search_raw_functions(query);
-    ctx.response.headers.set('Access-Control-Allow-Origin', '*')
+    // Headers
+    ctx.response.headers.set("Access-Control-Allow-Origin", "*");
+    ctx.response.headers.set("Cache-Control", "max-age=604800");
+    ctx.response.headers.set("Age", "259200");
     return ctx.response.body;
 });
 
