@@ -2,7 +2,7 @@
 
 import { index_data } from "../lib/database.ts";
 
-console.log("[+] Indexing data");
+console.info("[+] Indexing data");
 
 // Read cached data
 console.log(" -> Reading cached data");

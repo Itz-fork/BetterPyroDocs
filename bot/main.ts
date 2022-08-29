@@ -157,7 +157,13 @@ BetterPyroDocsBot.inlineQuery(/[a-z|A-Z]+/, async (ctx) => {
 });
 
 // Start functions
-// console.log("[+] Indexing telegram erros list");
-// await index_data();
-console.log("[+] Starting the bot");
+if (Config.index_on_start) {
+    Deno.run({
+        cmd: ["deno", "run --allow-net --allow-write lib/scraper.ts"],
+    });
+    Deno.run({
+        cmd: ["deno", "run --allow-net --allow-read --allow-env scripts/save_to_db.ts"],
+    });
+}
+console.info("[+] Starting the bot");
 await BetterPyroDocsBot.start();

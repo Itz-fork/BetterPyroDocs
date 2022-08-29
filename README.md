@@ -35,7 +35,7 @@
 
 - **Run with deno:**
     ```sh
-    deno run --allow-net --allow-env bot/main.ts
+    deno run --allow-net --allow-env --allow-run --allow-read --allow-write bot/main.ts
     ```
 
 - **Search for**
