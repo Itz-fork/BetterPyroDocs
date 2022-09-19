@@ -81,5 +81,5 @@ async function Get_Results() {
     await parse_method_results(results_div, results)
   }
 
-  la.innerHTML = ""
+  la.style = "opacity: 0"
 }
