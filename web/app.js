@@ -1,4 +1,7 @@
+// Copyright (c) 2022 Itz-fork
 // deno-lint-ignore-file require-await
+
+const api_url = "https://betterpyrodocs.deno.dev/"
 
 async function check_results(results) {
   for (let x in results) { return false; }
@@ -11,8 +14,8 @@ async function parse_method_results(results_div, results) {
     return
   }
   results_div.innerHTML = ""
-  for (const [key, item] of Object.entries(results)) {
-    let rs = `
+  for (const item of Object.values(results)) {
+    results_div.innerHTML += `
     <div class="flex flex-grow card card-compact bg-base-200 m-2 opacity-80 max-w-sm min-w-full shadow-xl">
       <div class="card-body">
         <h2 class="card-title">${item.name}</h2>
@@ -23,7 +26,6 @@ async function parse_method_results(results_div, results) {
             </div>
     </div>
 </div>`
-    results_div.innerHTML += rs
   }
 }
 
@@ -33,8 +35,8 @@ async function parse_raw_func_results(results_div, results) {
     return
   }
   results_div.innerHTML = ""
-  for (const [key, item] of Object.entries(results)) {
-    let rs = `
+  for (const item of Object.values(results)) {
+    results_div.innerHTML += `
     <div class="flex flex-grow card card-compact bg-base-200 m-2 opacity-80 max-w-sm min-w-full shadow-xl">
       <div class="card-body">
         <h2 class="card-title">${item.class_name}</h2>
@@ -48,7 +50,6 @@ async function parse_raw_func_results(results_div, results) {
             </div>
     </div>
 </div>`
-    results_div.innerHTML += rs
   }
 }
 
@@ -71,13 +72,13 @@ async function Get_Results() {
 
   // Fetch data and update the UI
   if (is_methods) {
-    const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
+    const results = await ((await fetch(`${api_url}search/methods/${query}`))).json()
     await parse_method_results(results_div, results)
   } else if (is_raw_funcs) {
-    const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/raw/${query}`))).json()
+    const results = await ((await fetch(`${api_url}search/raw/${query}`))).json()
     await parse_raw_func_results(results_div, results)
   } else {
-    const results = await ((await fetch(`https://betterpyrodocs.deno.dev/search/methods/${query}`))).json()
+    const results = await ((await fetch(`${api_url}search/methods/${query}`))).json()
     await parse_method_results(results_div, results)
   }
 
