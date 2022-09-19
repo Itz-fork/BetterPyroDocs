@@ -16,7 +16,7 @@ async function parse_method_results(results_div, results) {
   results_div.innerHTML = ""
   for (const item of Object.values(results)) {
     results_div.innerHTML += `
-    <div class="flex flex-grow card card-compact bg-base-200 m-2 opacity-80 max-w-sm min-w-full shadow-xl">
+    <div class="flex flex-grow card card-compact bg-base-300 m-2 opacity-80 max-w-sm min-w-full shadow-xl">
       <div class="card-body">
         <h2 class="card-title">${item.name}</h2>
         <h3><b>Category:</b> ${item.category}</h3>
